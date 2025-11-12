@@ -16,14 +16,14 @@ layout: default
     <p class="essay-subtitle">
       {{ page.description }}
     </p>
-<article class="essay shell">
-  <header class="essay-header">
-    {% if page.date %}
-    <p class="essay-date">{{ page.date | date: "%B %-d, %Y" }}</p>
     {% endif %}
-    <h1 class="essay-title">{{ page.title }}</h1>
-    {% if page.description %}
-    <p class="essay-description">{{ page.description }}</p>
+    
+    {% if page.categories %}
+    <div class="post-categories">
+      {% for category in page.categories %}
+      <span class="category-badge">{{ category }}</span>
+      {% endfor %}
+    </div>
     {% endif %}
   </header>
 
@@ -39,12 +39,6 @@ layout: default
       <li>{{ tag }}</li>
       {% endfor %}
     </ul>
-  <footer class="essay-footer">
-    <div class="essay-tags">
-      {% for tag in page.tags %}
-      <span class="tag">{{ tag }}</span>
-      {% endfor %}
-    </div>
   </footer>
   {% endif %}
 </article>
