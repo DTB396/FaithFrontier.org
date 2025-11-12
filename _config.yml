@@ -1,35 +1,42 @@
-title: "Faith Frontier"
+title: Faith Frontier Ecclesiastical Trust
 description: "Case records, filings, and covenant-based legal commentary by Devon Tyler Barber."
-url: "https://faithfrontier.org"
-baseurl: "" # leave empty when deploying at the domain root
+url: https://faithfrontier.org
+baseurl: ""  # apex domain
+lang: en
+timezone: America/New_York
 
 markdown: kramdown
 highlighter: rouge
 
+permalink: /:title/  # for posts
+
 collections:
   cases:
     output: true
-    permalink: /cases/:path/
+    permalink: /cases/:name/
   essays:
     output: true
-    permalink: /essays/:path/
+    permalink: /faith/:name/
+  docs:
+    output: true
+    permalink: /docs/:name/
 
 defaults:
-  # Default for all case records in _cases
-  - scope:
-      path: ""
-      type: cases
-    values:
-      layout: case
-      body_class: page-case
+  - scope: { path: "_cases", type: "cases" }
+    values: { layout: "case" }
+  - scope: { path: "", type: "essays" }
+    values: { layout: "essay" }
+  - scope: { path: "", type: "docs" }
+    values: { layout: "doc" }
+  - scope: { path: "", type: "pages" }
+    values: { layout: "default" }
+  - scope: { path: "", type: "posts" }
+    values: { layout: "post" }
 
-  # Default for all essays in _essays
-  - scope:
-      path: ""
-      type: essays
-    values:
-      layout: essay
-      body_class: page-essays
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
 
 exclude:
   - Gemfile
@@ -37,3 +44,6 @@ exclude:
   - README.md
   - node_modules
   - vendor
+  - scripts
+  - reports
+  - _inbox

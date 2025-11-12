@@ -9,7 +9,7 @@ layout: default
     </p>
     <h1 class="case-title">{{ page.title }}</h1>
     <p class="case-subtitle">
-      {{ page.short_title }} · Docket {{ page.docket }}
+      {{ page.short_title }} · Docket {{ page.primary_docket | default: page.dockets | join: ", " }}
     </p>
     <dl class="case-meta">
       <div>
@@ -35,6 +35,29 @@ layout: default
     </dl>
   </header>
 
+  <section class="case-body">
+    {{ content }}
+  </section>
+
+  <section class="docket">
+    <h2>Docket</h2>
+    {% assign slug = page.url | split:'/' | last | default: page.slug %}
+    {% assign docket = site.data.docket[slug] | sort: "date" | reverse %}
+    {% if docket %}
+      <ul class="docket-list">
+        {% for d in docket %}
+          <li>
+            <time>{{ d.date }}</time> — <strong>{{ d.type }}</strong>:
+            {% if d.file %}<a href="{{ d.file | relative_url }}">{{ d.title }}</a>{% else %}{{ d.title }}{% endif %}
+            {% if d.notes %}<div class="notes">{{ d.notes }}</div>{% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    {% else %}
+      <p>No docket entries yet.</p>
+    {% endif %}
+  </section>
+
   {% if page.assets_dir and page.documents %}
   <section class="case-files">
     <h2>Key Filings &amp; Exhibits</h2>
@@ -52,10 +75,6 @@ layout: default
     </ul>
   </section>
   {% endif %}
-
-  <section class="case-body">
-    {{ content }}
-  </section>
 
   {% if page.related_dockets %}
   <section class="case-related">
