@@ -27,7 +27,7 @@ description: "Active and historical court matters documented by the Faith Fronti
       <li class="case-item">
         <a href="{{ c.url | relative_url }}"><strong>{{ c.short_title | default: c.title }}</strong></a>
         <div class="meta">
-          {{ c.court }} · Docket: {{ c.primary_docket | default: c.dockets | join: ", " }} · Status: {{ c.status }} · Filed: {{ c.filed_date | date: "%Y-%m-%d" }}
+          {{ c.court }} · Docket: {{ c.primary_docket | default: c.docket | default: c.dockets | join: ", " }} · Status: {{ c.status }} · Filed: {{ c.filed_date | date: "%Y-%m-%d" }}
         </div>
       </li>
     {% endfor %}

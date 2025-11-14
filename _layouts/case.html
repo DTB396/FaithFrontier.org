@@ -9,7 +9,7 @@ layout: default
     </p>
     <h1 class="case-title">{{ page.title }}</h1>
     <p class="case-subtitle">
-      {{ page.short_title }} · Docket {{ page.primary_docket | default: page.dockets | join: ", " }}
+      {{ page.short_title }} · Docket {{ page.primary_docket | default: page.docket | default: page.dockets | join: ", " }}
     </p>
     <dl class="case-meta">
       <div>
@@ -42,8 +42,9 @@ layout: default
   <section class="docket">
     <h2>Docket</h2>
     {% assign slug = page.url | split:'/' | last | default: page.slug %}
-    {% assign docket = site.data.docket[slug] | sort: "date" | reverse %}
-    {% if docket %}
+    {% assign docket_data = site.data.docket[slug] %}
+    {% if docket_data %}
+      {% assign docket = docket_data | sort: "date" | reverse %}
       <ul class="docket-list">
         {% for d in docket %}
           <li>
