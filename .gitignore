@@ -14,3 +14,7 @@ _inbox/
 reports/
 node_modules/
 *.bak
+
+# Environment variables
+.env
+.env.local

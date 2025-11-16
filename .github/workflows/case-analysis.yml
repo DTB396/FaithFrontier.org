@@ -1,0 +1,60 @@
+name: Case Analysis with OpenAI
+
+on:
+  push:
+    paths:
+      - "_cases/**"
+      - "_data/docket/**"
+  workflow_dispatch:
+    inputs:
+      force_reanalysis:
+        description: 'Force re-analysis of all cases (ignore age check)'
+        required: false
+        default: 'false'
+        type: boolean
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  analyze:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          
+      - name: Install dependencies
+        run: npm install
+        
+      - name: Run case analysis
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node scripts/analyze-cases.js
+        
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "feat(analysis): AI-generated case analysis"
+          title: "AI Analysis: Case Records and Dockets"
+          body: |
+            ## Automated Case Analysis
+            
+            This PR contains AI-generated analysis of case records and dockets.
+            
+            ### Analysis Types:
+            - **Judicial Oversight**: Legal analysis focusing on due process, constitutional issues, and procedural propriety
+            - **Journalistic Commentary**: Public interest perspective on individual rights, government accountability, and access to justice
+            
+            ### Files Changed:
+            - Analysis files in `_data/analysis/`
+            
+            **Note**: Please review the analysis for accuracy and appropriateness before merging.
+          branch: "ai-analysis/case-updates"
+          delete-branch: true
+          labels: "automated, analysis"

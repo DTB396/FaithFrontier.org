@@ -59,3 +59,15 @@ To use:
 1. Add or edit case records in `_cases/`.
 2. Place PDFs and exhibits under `assets/cases/<docket>/` and update the `assets_dir` and `documents` fields in each case file.
 3. Push to GitHub and connect the repository to your `faithfrontier.org` domain.
+
+## Features
+
+### Docket Management System
+Automated intake and organization of court filings and documents. See [DOCKET-SYSTEM.md](DOCKET-SYSTEM.md) for details.
+
+### AI-Powered Case Analysis
+OpenAI integration provides automated analysis of case records from two perspectives:
+- **Judicial Oversight**: Constitutional and procedural analysis
+- **Journalistic Commentary**: Public interest and accountability perspective
+
+See [ANALYSIS-SYSTEM.md](ANALYSIS-SYSTEM.md) for setup and usage instructions.
