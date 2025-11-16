@@ -55,7 +55,7 @@ filings:
 
 - date: 2025-10-27
   label: "Certification of Supplemental Record and Request for Transmittal to Appellate Division"
-  file: "2025-10-27_NJSC_ATL-22-002292_Barber_Certification_of_Supplemental_Record_and_Request_for_Transmittal_to_AppDiv.pdf"
+  file: "2025-10-27_NJSC_ATL-22-002292_Barber_Certification_of_SupplementalRecord_and_Request_for_Transmittal_to_AppDiv.pdf"
   path: "/cases/atl-22-002292/pcr/"
 ---
 
@@ -145,3 +145,45 @@ filings:
     </p>
   </footer>
 </section>
+
+---
+
+## AI-Powered Case Analysis
+
+This case record is enhanced with automated analysis from OpenAI's GPT models, providing two complementary perspectives:
+
+### Judicial Oversight Analysis
+{% assign analysis = site.data.analysis['barber-nj-pcr-2022'] %}
+{% if analysis and analysis.judicial_oversight %}
+{{ analysis.judicial_oversight | markdownify }}
+{% else %}
+*Analysis pending. This section will be automatically populated when the OpenAI analysis system processes this case record.*
+
+The judicial oversight analysis will focus on:
+- Due process considerations
+- Procedural propriety and compliance with court rules
+- Constitutional issues raised in the filings
+- Judicial conduct and adherence to established law
+- Administrative justice concerns
+{% endif %}
+
+### Journalistic Commentary
+{% if analysis and analysis.journalistic_commentary %}
+{{ analysis.journalistic_commentary | markdownify }}
+{% else %}
+*Commentary pending. This section will be automatically populated when the OpenAI analysis system processes this case record.*
+
+The journalistic commentary will examine:
+- Public interest and transparency implications
+- Individual rights and civil liberties at stake
+- Government accountability and institutional response
+- Access to justice for self-represented litigants
+- Broader societal implications of the case
+- The human story behind the legal proceedings
+{% endif %}
+
+{% if analysis %}
+<p class="text-muted"><small>Analysis generated: {{ analysis.generated_at | date: "%B %d, %Y at %I:%M %p" }}</small></p>
+{% endif %}
+
+**About this analysis:** The AI-powered analysis is generated automatically using OpenAI's GPT models to provide accessible context and commentary on complex legal proceedings. It is not a substitute for legal advice and should be read alongside the official court record. See [ANALYSIS-SYSTEM.md](/ANALYSIS-SYSTEM.md) for more information.
