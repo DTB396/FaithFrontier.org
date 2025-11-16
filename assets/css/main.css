@@ -428,3 +428,7 @@
     padding-inline: 0;
   }
 }
+
+/* Import case analysis styles */
+@import url('case-analysis.css');
+
