@@ -70,4 +70,10 @@ OpenAI integration provides automated analysis of case records from two perspect
 - **Judicial Oversight**: Constitutional and procedural analysis
 - **Journalistic Commentary**: Public interest and accountability perspective
 
-See [ANALYSIS-SYSTEM.md](ANALYSIS-SYSTEM.md) for setup and usage instructions.
+**Quick Setup:**
+1. Get an API key from [OpenAI Platform](https://platform.openai.com/api-keys)
+2. Add it as a repository secret: Settings > Secrets and variables > Actions > New repository secret
+3. Name: `OPENAI_API_KEY`
+4. Value: Your OpenAI API key
+
+See [ANALYSIS-SYSTEM.md](ANALYSIS-SYSTEM.md) for complete setup and usage instructions.

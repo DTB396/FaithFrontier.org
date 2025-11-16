@@ -32,6 +32,15 @@ jobs:
       - name: Install dependencies
         run: npm install
         
+      - name: Validate OpenAI API Key
+        run: |
+          if [ -z "${{ secrets.OPENAI_API_KEY }}" ]; then
+            echo "::error::OPENAI_API_KEY secret is not set. Please add it in repository Settings > Secrets and variables > Actions"
+            echo "See ANALYSIS-SYSTEM.md for setup instructions"
+            exit 1
+          fi
+          echo "✓ OpenAI API Key is configured"
+        
       - name: Run case analysis
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
