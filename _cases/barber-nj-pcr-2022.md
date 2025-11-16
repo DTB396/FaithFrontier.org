@@ -55,7 +55,7 @@ filings:
 
 - date: 2025-10-27
   label: "Certification of Supplemental Record and Request for Transmittal to Appellate Division"
-  file: "2025-10-27_NJSC_ATL-22-002292_Barber_Certification_of_Supplemental_Record_and_Request_for_Transmittal_to_AppDiv.pdf"
+  file: "2025-10-27_NJSC_ATL-22-002292_Barber_Certification_of_SupplementalRecord_and_Request_for_Transmittal_to_AppDiv.pdf"
   path: "/cases/atl-22-002292/pcr/"
 ---
 
