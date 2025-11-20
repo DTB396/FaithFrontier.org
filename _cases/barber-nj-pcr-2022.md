@@ -1,8 +1,8 @@
 ---
 layout: case
 published: true
-title: "State v. Barber — Unified Post-Conviction Relief (ATL-22-002292 & ATL-22-002313)"
-short_title: "State v. Barber (Unified PCR 2022)"
+title: "Devon T. Barber v. State of New Jersey — Unified Post-Conviction Relief (ATL-22-002292 & ATL-22-002313)"
+short_title: "Barber v. State (Unified PCR 2022)"
 permalink: /cases/barber-nj-pcr-2022/
 dockets:
   - "ATL-22-002292"
@@ -23,6 +23,7 @@ public_trust_tags:
   - "ineffective assistance of counsel"
   - "constitutional rights"
   - "access to justice"
+  - "cruel and unusual punishments"
 
 common_law_themes:
   - "Due Process & Fair Trial"
@@ -31,18 +32,18 @@ common_law_themes:
   - "Conscience in Criminal Justice"
 
 summary: >
-  Consolidated post-conviction proceedings under N.J. Ct. R. 3:22 spanning
+  Post-conviction proceedings under N.J. Ct. R. 3:22 spanning
   related 2022 Atlantic County criminal dockets ATL-22-002292 and ATL-22-002313.
   The petitions challenge counsel performance, evidentiary handling, and
   sentencing procedure, asserting constitutional and equitable grounds for
-  relief. This unified record documents filings, certifications, and
-  supplemental materials across both matters for transparency and coherence.
-
+  relief.
+  
 tags:
   - PCR
   - Rule 3:22
   - Due Process
   - Atlantic County
+  - New Jersey
 
 assets_dir: "/cases/atl-22-002292/pcr/"
 
@@ -64,7 +65,7 @@ filings:
 <section class="case-page">
 
   <header class="case-header">
-    <h1>State v. Barber — Unified Post-Conviction Relief under R. 3:22</h1>
+    <h1>Devon T. Barber v. State of New Jersey — Post-Conviction Relief under R. 3:22</h1>
     <dl class="case-meta">
       <dt>Court</dt>
       <dd>Superior Court of New Jersey, Law Division — Atlantic County, Criminal Part</dd>
@@ -82,24 +83,74 @@ filings:
 
   <section>
     <h2>Overview</h2>
-    <p>
-      These consolidated petitions pursue post-conviction relief under
-      <strong>N.J. Ct. R. 3:22</strong>, asserting violations of the
-      <strong>Sixth</strong> and <strong>Fourteenth Amendments</strong>.
-      The filings allege ineffective assistance, suppression of
-      exculpatory material, and procedural irregularities across the
-      related 2022 prosecutions.
-    </p>
+<p>
+  This petition seeks post-conviction relief pursuant to
+  <em>N.J. Ct. R. 3:22</em>, asserting violations of the
+  <strong>Sixth Amendment</strong> right to effective counsel, the
+  <strong>Fourteenth Amendment</strong> rights to due process and fundamental
+  fairness, and <strong>Fifth Amendment</strong> protections against compelled
+  or uninformed waiver of rights. The petition alleges
+  <strong>ineffective assistance</strong>, <strong>failure to investigate</strong>,
+  <strong>failure to disclose exculpatory and impeachment material</strong>,
+  <strong>involuntary or insufficiently informed plea advisement</strong>,
+  <strong>procedural defects</strong> affecting arraignment and pretrial stages,
+  and other <strong>irregularities</strong> that cumulatively rendered the
+  proceedings constitutionally unreliable.
+</p>
   </section>
 
   <section>
-    <h2>Key Legal Questions</h2>
-    <ul>
-      <li>Whether trial counsel’s conduct failed the <em>Strickland / Fritz</em> performance-prejudice standard.</li>
-      <li>Whether exculpatory or mitigating evidence was withheld contrary to <em>Brady v. Maryland</em>.</li>
-      <li>Whether procedural fragmentation across the 2022 dockets deprived petitioner of fundamental fairness.</li>
-      <li>Whether delay or administrative handling of the PCRs undermines the remedial purpose of <em>R. 3:22-1 et seq.</em></li>
-    </ul>
+  <h2>Key Legal Questions</h2>
+<ul>
+  <li>
+    Whether trial counsel’s performance violated the
+    <em>Strickland v. Washington</em> / <em>State v. Fritz</em>
+    standards for deficient performance and resulting prejudice.
+  </li>
+
+  <li>
+    Whether counsel failed to investigate material facts, defenses, or
+    witnesses in a manner that deprived petitioner of constitutionally
+    adequate representation under the Sixth Amendment and New Jersey law.
+  </li>
+
+  <li>
+    Whether exculpatory, mitigating, or impeachment evidence was withheld
+    in violation of <em>Brady v. Maryland</em> and related disclosure
+    obligations applicable to the State.
+  </li>
+
+  <li>
+    Whether any plea discussions, advisements, or waivers were involuntary
+    or inadequately informed under <em>Boykin v. Alabama</em>,
+    <em>State v. Slater</em>, and <em>State v. Henderson</em>.
+  </li>
+
+  <li>
+    Whether structural or procedural irregularities during arraignment,
+    pretrial proceedings, or case management deprived petitioner of due
+    process and fundamental fairness required by the Fourteenth Amendment
+    and the New Jersey Constitution.
+  </li>
+
+  <li>
+    Whether fragmentation, consolidation issues, or inconsistent handling
+    across the related 2022 dockets violated principles of fundamental
+    fairness and impaired petitioner’s ability to mount a unified defense.
+  </li>
+
+  <li>
+    Whether cumulative errors—including ineffective assistance, nondisclosure,
+    incomplete investigation, and irregular procedure—rendered the outcome
+    unreliable under federal and state constitutional standards.
+  </li>
+
+  <li>
+    Whether administrative delay, misrouting, or inconsistent processing of
+    petitioner’s PCR filings undermined the remedial and corrective purpose
+    of <em>N.J. Ct. R. 3:22-1 et seq.</em>
+  </li>
+</ul>
   </section>
 
   <section>
@@ -130,13 +181,6 @@ filings:
   </section>
 
   <section>
-    <h2>Context & Purpose</h2>
-    <p>
-      This record consolidates two companion PCR dockets from 2022 into
-      one transparent public file, illustrating the process and substance
-      of post-conviction review in New Jersey’s trial courts.
-    </p>
-  </section>
 
   <footer class="case-footer">
     <p class="text-muted">
