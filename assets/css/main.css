@@ -1137,6 +1137,12 @@
   margin-bottom: 2rem;
 }
 
+.cases-index .cases-note {
+  font-size: 0.95rem;
+  color: var(--ff-muted);
+  margin: -0.5rem 0 1.5rem;
+}
+
 /* Case Filter Form */
 
 #case-filter {
