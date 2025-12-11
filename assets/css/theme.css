@@ -165,6 +165,12 @@ h3 {
   width: auto;
 }
 
+.ff-logo-inline svg {
+  display: block;
+  max-height: 48px;
+  width: auto;
+}
+
 /* Header icon – mobile / nav */
 .ff-logo--icon {
   max-height: 32px;

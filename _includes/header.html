@@ -16,13 +16,9 @@
     -->
     <a class="ff-brand ff-brand--desktop" href="{{ '/' | relative_url }}" aria-label="Faith Frontier Ecclesiastical Trust home">
       {% if site.logo_main_dark or site.logo_main_light or site.logo_main %}
-        <img src="{{ ff_header_logo_dark | relative_url }}"
-             data-logo-dark="{{ ff_header_logo_dark | relative_url }}"
-             data-logo-light="{{ ff_header_logo_light | relative_url }}"
-             alt="Faith Frontier Ecclesiastical Trust"
-             class="ff-logo ff-logo--header ff-logo--dark"
-             decoding="async"
-             loading="eager" />
+        <span class="ff-logo ff-logo--header ff-logo--dark ff-logo-inline" aria-hidden="false">
+          {% include logo-faithfrontier-header.svg %}
+        </span>
       {% elsif site.brand_png %}
         <img src="{{ ff_header_logo_png | relative_url }}"
              alt="Faith Frontier Ecclesiastical Trust"
@@ -30,13 +26,9 @@
              decoding="async"
              loading="eager" />
       {% else %}
-        <img src="{{ ff_header_logo_dark | relative_url }}"
-             data-logo-dark="{{ ff_header_logo_dark | relative_url }}"
-             data-logo-light="{{ ff_header_logo_light | relative_url }}"
-             alt="Faith Frontier Ecclesiastical Trust"
-             class="ff-logo ff-logo--header ff-logo--dark"
-             decoding="async"
-             loading="eager" />
+        <span class="ff-logo ff-logo--header ff-logo--dark ff-logo-inline" aria-hidden="false">
+          {% include logo-faithfrontier-header.svg %}
+        </span>
       {% endif %}
     </a>
 
