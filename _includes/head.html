@@ -12,13 +12,15 @@
 <link rel="canonical" href="{{ page.url | absolute_url }}">
 
 <!-- Favicon / Icons -->
-<link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/faithfrontier-icon-32.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="64x64" href="{{ '/assets/img/faithfrontier-logo-mark-64.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="128x128" href="{{ '/assets/img/faithfrontier-logo-mark-128.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/img/faithfrontier-icon-192.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="256x256" href="{{ '/assets/img/faithfrontier-logo-mark-256.png' | relative_url }}">
-<link rel="icon" type="image/png" sizes="512x512" href="{{ '/assets/img/faithfrontier-logo-mark-512.png' | relative_url }}">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/faithfrontier-icon-512.png' | relative_url }}">
+{% if site.brand_png %}
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/img/faithfrontier-icon-32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="64x64" href="{{ '/assets/img/faithfrontier-logo-mark-64.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="128x128" href="{{ '/assets/img/faithfrontier-logo-mark-128.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="192x192" href="{{ '/assets/img/faithfrontier-icon-192.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="256x256" href="{{ '/assets/img/faithfrontier-logo-mark-256.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="512x512" href="{{ '/assets/img/faithfrontier-logo-mark-512.png' | relative_url }}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/img/faithfrontier-icon-512.png' | relative_url }}">
+{% endif %}
 <meta name="theme-color" content="#020617">
 
 <!-- Open Graph / Facebook -->
@@ -29,7 +31,7 @@
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 {% if page.image %}
   <meta property="og:image" content="{{ page.image | relative_url }}">
-{% else %}
+{% elsif site.brand_png %}
   <meta property="og:image" content="{{ '/assets/img/faithfrontier-logo-mark-1024.png' | relative_url }}">
   <meta property="og:image:width" content="1024">
   <meta property="og:image:height" content="1024">
@@ -41,7 +43,7 @@
 <meta name="twitter:description" content="{{ page.description | default: site.description }}">
 {% if page.image %}
   <meta name="twitter:image" content="{{ page.image | relative_url }}">
-{% else %}
+{% elsif site.brand_png %}
   <meta name="twitter:image" content="{{ '/assets/img/faithfrontier-logo-mark-512.png' | relative_url }}">
 {% endif %}
 

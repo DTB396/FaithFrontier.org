@@ -10,6 +10,7 @@ author: Devon Tyler Barber
 # Brand assets
 logo_main: "/assets/img/faithfrontier-logo.svg"
 logo_mark: "/assets/img/faithfrontier-mark.svg"
+brand_png: false
 
 # Build settings
 markdown: kramdown
