@@ -47,12 +47,18 @@ while preserving legal, ecclesiastical, and ethical boundaries.
 
 ```text
 _cases/              # Case summaries and metadata (Markdown)
+  _TEMPLATE.md       # Template for creating new cases
 cases/               # Normalized public-facing case folders with filings
 assets/cases/        # Binary filings, exhibits, envelopes, media
 _essays/             # Protected essays and narratives
 _articles/, articles/ # Long-form content and features
-_layouts/, _includes/ # Jekyll templates (MIT-licensed code)
-assets/css/, assets/js/ # Stylesheets and scripts (MIT-licensed code)
+_layouts/            # Jekyll templates (MIT-licensed code)
+  case.html          # Standard case layout
+  case-enhanced.html # Enhanced structured case layout
+_includes/           # Reusable content snippets
+assets/css/          # Stylesheets (MIT-licensed code)
+  case-enhanced.css  # Enhanced case layout styling
+assets/js/           # Scripts (MIT-licensed code)
 assets/images/       # Logos, seals, diagrams (trademark governed)
 scripts/             # Automation utilities (MIT-licensed code)
 ```
@@ -123,6 +129,22 @@ Every contribution must preserve these boundaries. Do **not** treat essays, case
 When adding new material, identify whether it is code or content, apply the appropriate license, and reference the governing document where necessary.
 
 ---
+
+## Enhanced Case Archive System
+
+Faith Frontier features a professional, structured case documentation system with two layout options:
+
+- **Standard Layout** (`case.html`): Basic case information with docket entries and key filings
+- **Enhanced Layout** (`case-enhanced.html`): Comprehensive structured format with:
+  - Case caption and standardized metadata
+  - Procedural posture with timeline visualization
+  - Factual background (neutral narrative)
+  - Personal involvement and Faith Frontier connection
+  - Current status and next steps
+  - Enhanced docket entry styling
+  - Professional print-ready formatting
+
+See `CASE-ARCHIVE-GUIDE.md` for complete documentation on using the enhanced case system.
 
 ## AI-Assisted Analysis
 
