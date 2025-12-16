@@ -1,3 +1,4 @@
+// Status filter values must match normalized case status fields: active, pending, closed
 (async()=>{
   const list=document.getElementById('case-list');
   const q=document.getElementById('q'), status=document.getElementById('status');

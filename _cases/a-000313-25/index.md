@@ -5,7 +5,7 @@ slug: a-000313-25
 docket: A-000313-25
 county: [ADD COUNTY]
 type: [ADD TYPE]
-status: open
+status: active
 last_updated: [ADD LAST UPDATED]
 summary: |
   [ADD CASE SUMMARY HERE]

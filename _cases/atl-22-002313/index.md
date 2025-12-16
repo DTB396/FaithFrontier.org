@@ -5,7 +5,7 @@ slug: atl-22-002313
 docket: ATL-22-002313
 county: Atlantic County
 type: criminal
-status: open
+status: active
 last_updated: 2025-12-11
 summary: |
   [ADD CASE SUMMARY HERE]
