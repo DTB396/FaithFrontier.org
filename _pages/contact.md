@@ -9,8 +9,9 @@ body_class: page-contact
 <section class="section-intro">
   <h1>Contact</h1>
   <p class="lead">
-    Faith Frontier is a small, intentional work. If you feel the weight of these times
-    and want to connect, collaborate, or simply walk this frontier together — reach out.
+    Faith Frontier is a small, intentional work committed to verifiable transparency.
+    If you want to collaborate, correct the public record, or explore how faith and law
+    meet in responsible stewardship — reach out.
   </p>
 </section>
 
@@ -24,7 +25,9 @@ body_class: page-contact
   </p>
   <p>
     Please include a clear subject line that reflects your purpose — whether it's about
-    Devon's story, an essay, a case record, or something else entirely.
+    Devon's story, an essay, a case record, or something else entirely. If you are
+    providing documents or corrections, cite docket numbers or source links so they can
+    be verified.
   </p>
 </section>
 
@@ -35,7 +38,8 @@ body_class: page-contact
     <li><strong>Essays & commentary:</strong> Thoughtful dialogue, critique, or collaboration on spiritual and civic themes.</li>
     <li><strong>Case records:</strong> Corrections, additional context, or documentation related to public records featured on the site.</li>
     <li><strong>Local community:</strong> Ideas for rebuilding meaning and sovereignty at human scale in your own context.</li>
-    <li><strong>Collaboration:</strong> Faith-based research, public-interest documentation, or projects rooted in grounded truth.</li>
+    <li><strong>Collaboration:</strong> Faith-based research, public-interest documentation, or projects rooted in grounded truth, especially where transparency and lawful oversight are welcome.</li>
+    <li><strong>Public records transparency:</strong> Invitations to validate filings, correct procedural history, or share publicly available materials that improve accuracy.</li>
   </ul>
 </section>
 
@@ -48,6 +52,7 @@ body_class: page-contact
     <li>Request personalized legal advice on your specific situation.</li>
     <li>Send confidential or highly sensitive information you wouldn't want disclosed.</li>
     <li>Attempt to serve formal legal papers or documents.</li>
+    <li>Seek insider shortcuts or extrajudicial outcomes that bypass courts, statutes, or due process.</li>
   </ul>
   <p>
     If you are facing an active legal crisis — criminal charges, eviction, domestic matters, or
@@ -62,7 +67,8 @@ body_class: page-contact
     If you are walking through trials — legal, spiritual, or otherwise — and need someone to
     stand in prayer with you for wisdom, courage, and clarity, you are welcome to say so.
     Faith Frontier is grounded in the belief that we are not alone in our struggles, and that
-    grounded faith matters more than ever in times of pressure.
+    grounded faith matters more than ever in times of pressure. Prayer is offered alongside,
+    not instead of, lawful counsel and professional help.
   </p>
 </section>
 
@@ -71,7 +77,8 @@ body_class: page-contact
   <p>
     This is intentional work, not mass communication. Responses may take time, but every
     sincere message is read. If your inquiry aligns with the mission and tone of Faith Frontier,
-    you'll hear back.
+    you'll hear back. Requests that include verifiable facts or docket references are easiest to
+    prioritize.
   </p>
 </section>
 
