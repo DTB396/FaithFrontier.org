@@ -9,6 +9,23 @@
       document.getElementById("site-nav") ||
       document.querySelector(".site-nav");
 
+    // Sticky header sizing (compact on scroll)
+    (function () {
+      var header = document.querySelector(".site-header");
+      if (!header) return;
+
+      function syncHeader() {
+        if (window.scrollY > 12) {
+          header.classList.add("is-compact");
+        } else {
+          header.classList.remove("is-compact");
+        }
+      }
+
+      syncHeader();
+      window.addEventListener("scroll", syncHeader, { passive: true });
+    })();
+
     if (!toggle || !nav) {
       // If this happens, HTML hooks don't match
       return;

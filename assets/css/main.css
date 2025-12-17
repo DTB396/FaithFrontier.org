@@ -281,11 +281,7 @@
   margin: 0 0 1.5rem;
   line-height: 1.15;
   font-weight: 700;
-  background: linear-gradient(135deg, var(--color-highlight) 0%, var(--accent-brass) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  text-shadow: 0 2px 20px rgba(212, 165, 116, 0.3);
+  color: var(--color-highlight);
 }
 
 .hero-lead {
@@ -367,15 +363,18 @@
 
 .hero-panel__stat {
   display: flex;
-  align-items: baseline;
-  gap: 0.6rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.25rem;
 }
 
 .hero-panel__number {
-  font-size: 2.6rem;
+  font-size: 1.15rem;
   font-weight: 700;
   color: var(--ff-cream);
   line-height: 1;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .hero-panel__label {

@@ -108,13 +108,37 @@ h3 {
   border-bottom: 2px solid var(--accent-brass);
   backdrop-filter: blur(8px);
   box-shadow: var(--shadow-soft);
+  transition: padding 180ms ease;
 }
 
 .site-header-inner {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 0;
+}
+
+/* Centered header brand (always visible) */
+.ff-brand--center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+}
+
+.ff-brand--center .ff-logo-inline svg {
+  max-height: 40px;
+  width: auto;
+  transition: max-height 180ms ease;
+}
+
+.site-header.is-compact .site-header-inner {
+  padding: 0.25rem 0;
+}
+
+.site-header.is-compact .ff-brand--center .ff-logo-inline svg {
+  max-height: 30px;
 }
 
 .site-logo {
@@ -465,6 +489,17 @@ h3 {
   margin: 0 0 0.5rem 0;
   padding: 0.25rem 0.25rem 0.5rem;
   border-bottom: 1px solid rgba(184, 138, 57, 0.25);
+}
+.nav-drawer-brand {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+.nav-drawer-brand .ff-logo-inline svg {
+  max-height: 28px;
+  width: auto;
 }
 .nav-title {
   font-family: var(--ff-sans);
