@@ -8,6 +8,8 @@ permalink: /theology-of-faith-frontier/
 
 Faith Frontier Ecclesiastical Trust is a religious-purpose trust committed to sanctuary, agrarian, charitable, and justice-oriented work for New Jersey residents. Its mission is rooted in Christ’s teaching that the hungry, the stranger, and the prisoner are to be welcomed and fed (Matthew 25:35–40). The trust exists to steward places like **Tillerstead Sanctuary** so that people find refuge, meaningful work, and community without exploitation.
 
+This page offers faith reflections; it is not legal advice or a substitute for court filings, statutes, or professional counsel. All claims of impact and operations must be verifiable through public records and accountable governance.
+
 ## Biblical anchors for the mission
 
 - **Proclaiming freedom and healing:** Jesus announced good news to the poor and release for the oppressed (Luke 4:18–19). This shapes the sanctuary’s outreach to people in addiction and crisis.
@@ -23,6 +25,8 @@ Faith Frontier Ecclesiastical Trust is a religious-purpose trust committed to sa
 - **Trade training and craftsmanship:** Workshops for carpentry, tile, maintenance, and hospitality honor work as stewardship and dignity.
 - **Agriculture and microgreens:** Indoor agriculture is a living parable of “land of milk and honey” abundance, feeding the community and training new growers.
 - **Recovery and healing:** Detox partnerships, counseling, and structured daily rhythms embody Christ’s healing ministry and Isaiah’s promise to bind up the broken.
+
+Faith Frontier welcomes scrutiny. If you see a need for clarification, additional documentation, or correction in the public record, please reach out through the **[contact page]({{ '/contact/' | relative_url }})** with citations so facts and faith commitments stay aligned.
 
 ## Linked plans and next steps
 
