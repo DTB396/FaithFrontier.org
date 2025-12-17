@@ -5,9 +5,12 @@
   "scripts": {
     "lint": "eslint \"assets/js/**/*.js\" \"worker/**/*.js\" \"scripts/verify-frontend-js.js\" \"eslint.config.js\"",
     "lint:fix": "eslint \"assets/js/**/*.js\" \"worker/**/*.js\" \"scripts/verify-frontend-js.js\" \"eslint.config.js\" --fix",
-    "format": "prettier \"assets/js/**/*.js\" \"scripts/verify-frontend-js.js\" \"eslint.config.js\" --write",
-    "format:check": "prettier \"assets/js/**/*.js\" \"scripts/verify-frontend-js.js\" \"eslint.config.js\" --check",
+    "lint:content": "node scripts/check-markdown-css.js",
+    "verify:nav-snapshot": "node scripts/check-nav-snapshot.js",
+    "format": "prettier \"assets/js/main.js\" \"assets/js/nav.js\" \"scripts/check-*.js\" \"tests/**/*.js\" \"playwright.config.js\" \"eslint.config.js\" --write",
+    "format:check": "prettier \"assets/js/main.js\" \"assets/js/nav.js\" \"scripts/check-*.js\" \"tests/**/*.js\" \"playwright.config.js\" \"eslint.config.js\" --check",
     "verify:frontend": "node scripts/verify-frontend-js.js",
+    "test:nav": "npx playwright test tests/nav.spec.js",
 
     "analyze": "node scripts/analyze-cases.js",
     "docket:intake": "node scripts/docket-intake.js",
@@ -23,6 +26,7 @@
     "pdf-parse": "^2.4.5"
   },
   "devDependencies": {
+    "@playwright/test": "^1.48.2",
     "eslint": "^9.20.0",
     "globals": "^15.14.0",
     "prettier": "^3.4.2"

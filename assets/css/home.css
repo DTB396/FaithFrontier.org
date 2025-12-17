@@ -1,0 +1,99 @@
+/* Homepage-specific styles moved out of markdown to prevent CSS bleed */
+
+.hero--home {
+  --home-card-bg: rgba(20, 30, 50, 0.92);
+  --home-shadow: 0 4px 32px rgba(15, 23, 42, 0.22);
+  --home-radius: 16px;
+}
+
+.hero--home .hero-grid {
+  grid-template-columns: 1.5fr minmax(340px, 1fr);
+  gap: var(--gutter, 1.5rem);
+  align-items: stretch;
+  align-content: start;
+  min-height: 60vh;
+}
+
+.hero--home .hero-main {
+  gap: 1.5rem;
+}
+
+.hero--home .hero-side-panel {
+  background: var(--home-card-bg);
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: clamp(1rem, 2vw, 2rem);
+  align-items: flex-start;
+  border-radius: var(--home-radius);
+  box-shadow: var(--home-shadow);
+  padding: 2.5rem 2rem;
+  margin-top: 0;
+  min-width: 320px;
+  max-width: 480px;
+}
+
+.hero--home .hero-actions {
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.hero--home .hero-actions .btn {
+  min-width: 140px;
+}
+
+.hero--home .hero-highlights {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: clamp(1rem, 2vw, 2rem);
+  margin-top: 1.5rem;
+}
+
+.hero--home .hero-highlight {
+  background: rgba(15, 23, 42, 0.92);
+  color: var(--color-text);
+  box-shadow: 0 2px 12px rgba(15, 23, 42, 0.18);
+  border: 1px solid rgba(212, 165, 116, 0.13);
+  border-radius: 12px;
+  padding: 1.25rem 1rem;
+}
+
+.hero--home .hero-highlight__label {
+  color: var(--accent-brass);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.hero--home img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 900px) {
+  .hero--home .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero--home .hero-side-panel {
+    order: 2;
+    width: 100%;
+    max-width: none;
+    min-width: 0;
+  }
+
+  .hero--home .hero-highlights {
+    grid-template-columns: 1fr;
+  }
+
+  .hero--home .hero-actions .btn {
+    flex: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero--home * {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}

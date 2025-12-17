@@ -4,6 +4,7 @@ title: "Faith Frontier"
 hide_hero: true
 show_breadcrumbs: false
 description: "Faith Frontier Ecclesiastical Trust builds a faith-rooted public trust for New Jersey residents, focusing on due process, equity, and restoration."
+stylesheet: /assets/css/home.css
 ---
 
 <!-- markdownlint-disable MD033 -->
@@ -227,6 +228,7 @@ description: "Faith Frontier Ecclesiastical Trust builds a faith-rooted public t
         <span class="hero-panel__number">Guides</span>
         <span class="hero-panel__label">Plain-language civic primers</span>
       </div>
+<<<<<<< HEAD
           </div>
     </div>
 </section>
@@ -248,3 +250,8 @@ description: "Faith Frontier Ecclesiastical Trust builds a faith-rooted public t
   Layout: --container, --gutter
   Usage: body uses stone-100; cards use stone-50 + stone-200 border; text ink-900/700; accents emerald-600.
 -->
+=======
+    </div>
+  </div>
+</section>
+>>>>>>> 41fa3336ee4ed21df12992da3b3a15d7a3d5e2a7

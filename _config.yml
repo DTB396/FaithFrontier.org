@@ -50,19 +50,39 @@ collections:
 
 # Defaults
 defaults:
-  - scope: { path: "_pages", type: "pages" }
-    values: { layout: "default" }
-  - scope: { path: "_manifesto", type: "manifesto" }
-    values: { layout: "default" }
-  - scope: { path: "_cases", type: "cases" }
-    values: { layout: "case" }
-  - scope: { path: "", type: "essays" }
-    values: { layout: "essay" }
-  - scope: { path: "", type: "docs" }
-    values: { layout: "doc" }
-  - scope: { path: "", type: "posts" }
-    values: { layout: "post" }
-  - scope: { path: "_trust", type: "trust" }
+  - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: "_manifesto"
+      type: "manifesto"
+    values:
+      layout: "default"
+  - scope:
+      path: "_cases"
+      type: "cases"
+    values:
+      layout: "case"
+  - scope:
+      path: ""
+      type: "essays"
+    values:
+      layout: "essay"
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "doc"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "_trust"
+      type: "trust"
     values:
       layout: "trust_document"
       sitemap: false
