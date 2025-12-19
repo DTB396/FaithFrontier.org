@@ -261,7 +261,7 @@ stylesheet: /assets/css/home.css
         </div>
 
         <div class="hero-actions hero-actions--centered">
-          <a class="btn btn-main" href="{{ '/about/' | relative_url }}">Explore Our Mission</a>
+          <a class="btn btn-main" href="{{ '/stewardship/' | relative_url }}">Begin the Stewardship Journey</a>
           <a class="btn btn-ghost" href="{{ '/cases/' | relative_url }}">Cases & Records</a>
           <a class="btn btn-ghost" href="{{ '/manifesto/' | relative_url }}">Read the Manifesto</a>
         </div>
@@ -298,6 +298,22 @@ stylesheet: /assets/css/home.css
           <span class="hero-panel__label">Plain-language civic primers</span>
         </div>
       </aside>
+    </div>
+  </section>
+
+  <!-- Stewardship Call to Action -->
+  <section class="section" style="background: var(--emerald-600); color: white;">
+    <div class="container" style="max-width: 900px; text-align: center; padding: 3rem 1.5rem;">
+      <h2 style="font-size: clamp(1.75rem, 4vw, 2.5rem); margin-bottom: 1rem; color: white;">From Witness to Steward</h2>
+      <p style="font-size: 1.2rem; line-height: 1.7; margin-bottom: 2rem; opacity: 0.95;">
+        Faith Frontier invites you on a journey: <strong>Observer → Learner → Participant → Steward</strong>. 
+        Whether you're seeking housing, offering skills, or wanting to serve—there's a place for you.
+      </p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="/stewardship/" class="btn" style="background: white; color: var(--emerald-600); border: none; font-weight: 700;">Explore the Pathway</a>
+        <a href="/programs/emergency-housing/" class="btn" style="background: transparent; color: white; border: 2px solid white; font-weight: 700;">Emergency Housing</a>
+        <a href="/government-partnerships/" class="btn" style="background: transparent; color: white; border: 2px solid white; font-weight: 700;">Municipal Partners</a>
+      </div>
     </div>
   </section>
 </div>

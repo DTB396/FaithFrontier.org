@@ -3,9 +3,9 @@
   type: Other
   title: Congressman Gottheimer Letter re TransCore Contract
 <<<<<<< HEAD
-  file: /assets/cases/atl-dc-007956-25/docket/2025-03-28_Gottheimer-Letter.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/2025-03-28_Gottheimer-Letter.pdf
 =======
-  file: /assets/cases/atl-dc-007956-25/docket/20250328-gottheimer-letter.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/20250328-gottheimer-letter.pdf
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 
 - id: 2025-08-19-summons
@@ -13,9 +13,9 @@
   type: Notice
   title: Summons
 <<<<<<< HEAD
-  file: /assets/cases/atl-dc-007956-25/docket/2025-08-19_Summons.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/2025-08-19_Summons.pdf
 =======
-  file: /assets/cases/atl-dc-007956-25/docket/20250819-summons.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/20250819-summons.pdf
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 
 - id: 2025-08-19-complaint
@@ -24,12 +24,12 @@
   title: Complaint
 <<<<<<< HEAD
 <<<<<<< HEAD
-  file: /assets/cases/atl-dc-007956-25/docket/2025-08-19_Complaint.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/2025-08-19_Complaint.pdf
 =======
-  file: /assets/cases/atl-dc-007956-25/docket/20250819-complaint.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/20250819-complaint.pdf
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 =======
-  file: /assets/cases/atl-dc-007956-25/docket/20250819-complaint-and-summons-by-njta.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/20250819-complaint-and-summons-by-njta.pdf
 >>>>>>> 0e4254c (fix: update file paths for complaint and proposed order in docket)
 
 - id: 2025-09-03-answer-first-appearance
@@ -37,9 +37,9 @@
   type: Filing
   title: Answer and First Appearance
 <<<<<<< HEAD
-  file: /assets/cases/atl-dc-007956-25/docket/20250903-answer-firstappearance.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/20250903-answer-firstappearance.pdf
 =======
-  file: /assets/cases/atl-dc-007956-25/docket/20250903-answer-firstappearance.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/20250903-answer-firstappearance.pdf
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 
 - id: 2025-10-08-counterclaim
@@ -47,9 +47,9 @@
   type: Filing
   title: Amended Answer and Counterclaim
 <<<<<<< HEAD
-  file: /assets/cases/atl-dc-007956-25/docket/2025-10-08_Counterclaim.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/2025-10-08_Counterclaim.pdf
 =======
-  file: /assets/cases/atl-dc-007956-25/docket/20251008-counterclaim.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/20251008-counterclaim.pdf
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 
 - id: 2025-10-08-proposed-order
@@ -58,12 +58,12 @@
   title: Proposed Order on Counterclaim Relief
 <<<<<<< HEAD
 <<<<<<< HEAD
-  file: /assets/cases/atl-dc-007956-25/docket/2025-10-08_Proposed-Order.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/2025-10-08_Proposed-Order.pdf
 =======
-  file: /assets/cases/atl-dc-007956-25/docket/20251008-proposed-order.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/20251008-proposed-order.pdf
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 =======
-  file: /assets/cases/atl-dc-007956-25/docket/20251008-proposed-order-granting-relief.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/20251008-proposed-order-granting-relief.pdf
 >>>>>>> 0e4254c (fix: update file paths for complaint and proposed order in docket)
 
 - id: 2025-10-27-court-order
@@ -71,9 +71,9 @@
   type: Order
   title: Court Order — Default Vacated and Discovery Schedule
 <<<<<<< HEAD
-  file: /assets/cases/atl-dc-007956-25/docket/2025-10-27_Court-Order.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/2025-10-27_Court-Order.pdf
 =======
-  file: /assets/cases/atl-dc-007956-25/docket/20251027-court-order.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/20251027-court-order.pdf
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 
 - id: 2025-10-27-discovery-requests
@@ -81,9 +81,9 @@
   type: Filing
   title: Discovery Packet — Interrogatories, Notice to Produce, and Admissions
 <<<<<<< HEAD
-  file: /assets/cases/atl-dc-007956-25/docket/2025-10-27_Discovery-Requests.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/2025-10-27_Discovery-Requests.pdf
 =======
-  file: /assets/cases/atl-dc-007956-25/docket/20251027-discovery-requests.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/20251027-discovery-requests.pdf
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 
 - id: 2025-11-03-ada-correspondence
@@ -91,9 +91,9 @@
   type: Other
   title: ADA Correspondence — Accommodation and Scheduling Request
 <<<<<<< HEAD
-  file: /assets/cases/atl-dc-007956-25/docket/2025-11-03_ADA-Correspondence.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/2025-11-03_ADA-Correspondence.pdf
 =======
-  file: /assets/cases/atl-dc-007956-25/docket/20251103-ada-correspondence.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/20251103-ada-correspondence.pdf
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 
 - id: 2025-11-05-response-to-counterclaim
@@ -101,7 +101,7 @@
   type: Filing
   title: NJTA Response to Counterclaim and Affirmative Defenses
 <<<<<<< HEAD
-  file: /assets/cases/atl-dc-007956-25/docket/2025-11-05_Response-to-Counterclaim.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/2025-11-05_Response-to-Counterclaim.pdf
 =======
-  file: /assets/cases/atl-dc-007956-25/docket/20251105-response-to-counterclaim.pdf
+  file: /assets/assets/cases/atl-dc-007956-25/docket/20251105-response-to-counterclaim.pdf
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)

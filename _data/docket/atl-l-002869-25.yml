@@ -3,9 +3,9 @@
   type: Filing
   title: Verified Complaint for Declaration of Ownership of Motor Vehicle
 <<<<<<< HEAD
-  file: /assets/cases/atl-l-002869-25/docket/20251014-verified-complaint-declaration-of-ownership.pdf
+  file: /assets/assets/cases/atl-l-002869-25/docket/20251014-verified-complaint-declaration-of-ownership.pdf
 =======
-  file: /assets/cases/atl-l-002869-25/docket/20251014-verified-complaint-declaration-of-ownership.pdf
+  file: /assets/assets/cases/atl-l-002869-25/docket/20251014-verified-complaint-declaration-of-ownership.pdf
 
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 2025-10-14-affidavit-indigency
@@ -13,9 +13,9 @@
   type: Filing
   title: Affidavit of Indigency
 <<<<<<< HEAD
-  file: /assets/cases/atl-l-002869-25/docket/20251014-affidavit-of-indigency.pdf
+  file: /assets/assets/cases/atl-l-002869-25/docket/20251014-affidavit-of-indigency.pdf
 =======
-  file: /assets/cases/atl-l-002869-25/docket/20251014-affidavit-of-indigency.pdf
+  file: /assets/assets/cases/atl-l-002869-25/docket/20251014-affidavit-of-indigency.pdf
 
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 2025-10-17-track-assignment
@@ -23,9 +23,9 @@
   type: Notice
   title: Track Assignment
 <<<<<<< HEAD
-  file: /assets/cases/atl-l-002869-25/docket/20251017-track-assignment.pdf
+  file: /assets/assets/cases/atl-l-002869-25/docket/20251017-track-assignment.pdf
 =======
-  file: /assets/cases/atl-l-002869-25/docket/20251017-track-assignment.pdf
+  file: /assets/assets/cases/atl-l-002869-25/docket/20251017-track-assignment.pdf
 
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
 - id: 2025-10-29-amended-complaint
@@ -33,7 +33,7 @@
   type: Filing
   title: Amended Complaint
 <<<<<<< HEAD
-  file: /assets/cases/atl-l-002869-25/docket/20251029-amended-complaint.pdf
+  file: /assets/assets/cases/atl-l-002869-25/docket/20251029-amended-complaint.pdf
 =======
-  file: /assets/cases/atl-l-002869-25/docket/20251029-amended-complaint.pdf
+  file: /assets/assets/cases/atl-l-002869-25/docket/20251029-amended-complaint.pdf
 >>>>>>> 84ee6cc (feat: reorganize docket files and update YAML paths)
