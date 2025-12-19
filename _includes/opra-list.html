@@ -1,0 +1,49 @@
+{%- comment -%}
+Usage:
+{% include opra-list.html status="Awaiting Response" %}
+{% include opra-list.html status="Active" %}
+{% include opra-list.html status="ALL" %}
+{% include opra-list.html authorities="Atlantic County Sheriff's Office|ACIA" %}
+{%- endcomment -%}
+
+{%- assign want_status = include.status | default: "ALL" -%}
+{%- assign authorities = include.authorities | default: "" -%}
+{%- assign auth_list = authorities | split: "|" -%}
+
+<ul class="record-list">
+  {%- assign sorted = site.opra | sort: "opened" | reverse -%}
+  {%- for r in sorted -%}
+    {%- assign ok_status = true -%}
+    {%- if want_status != "ALL" and r.status != want_status -%}
+      {%- assign ok_status = false -%}
+    {%- endif -%}
+
+    {%- assign ok_auth = true -%}
+    {%- if authorities != "" -%}
+      {%- assign ok_auth = false -%}
+      {%- for a in auth_list -%}
+        {%- if r.authority_primary contains a or r.authority_primary == a -%}
+          {%- assign ok_auth = true -%}
+        {%- endif -%}
+        {%- if r.authority_parallel -%}
+          {%- for ap in r.authority_parallel -%}
+            {%- if ap contains a or ap == a -%}
+              {%- assign ok_auth = true -%}
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- if ok_status and ok_auth -%}
+      <li class="record-item">
+        <a href="{{ r.url | relative_url }}"><strong>{{ r.title }}</strong></a>
+        <div class="record-meta">
+          <span class="badge badge-status">{{ r.status }}</span>
+          {%- if r.opened -%}<span class="meta">Opened: {{ r.opened }}</span>{%- endif -%}
+          {%- if r.authority_primary -%}<span class="meta">Custodian: {{ r.authority_primary }}</span>{%- endif -%}
+        </div>
+      </li>
+    {%- endif -%}
+  {%- endfor -%}
+</ul>
