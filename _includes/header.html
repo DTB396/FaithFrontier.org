@@ -14,8 +14,9 @@
       <span class="nav-toggle-bar u-bg-contrast"></span>
     </button>
 
-    <!-- Centered brand (SVG) -->
-    <a class="ff-brand ff-brand--center" href="{{ '/' | relative_url }}" aria-label="Faith Frontier Ecclesiastical Trust home">
+    <!-- Centered brand (SVG with icon) -->
+    <a class="ff-brand ff-brand--center" href="{{ '/' | relative_url }}" aria-label="Faith Frontier Ecclesiastical Trust home" style="display: flex; align-items: center; gap: 0.75rem;">
+      <img src="/assets/img/faithfrontier-mark.svg" alt="" width="32" height="32" style="flex-shrink: 0;" aria-hidden="true" />
       <span class="ff-logo ff-logo--header ff-logo--dark ff-logo-inline" aria-hidden="false">
         {% include logo-faithfrontier-header.svg %}
       </span>

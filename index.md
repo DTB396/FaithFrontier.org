@@ -24,10 +24,10 @@ stylesheet: /assets/css/home.css
     --shadow-soft: rgba(120, 116, 108, 0.28);
 
     --radius-lg: 16px;
-    --container: 1100px;
-    --section-pad-y: clamp(40px, 6vw, 84px);
-    --card-pad: clamp(18px, 2vw, 26px);
-    --gutter: clamp(18px, 3vw, 32px);
+    --container: 1140px;
+    --section-pad-y: clamp(48px, 7vw, 96px);
+    --card-pad: clamp(22px, 2.5vw, 32px);
+    --gutter: clamp(24px, 3.5vw, 40px);
 
     background: var(--stone-100);
     color: var(--ink-900);
@@ -67,11 +67,13 @@ stylesheet: /assets/css/home.css
   /* Hero layout */
   .ff-home .hero-grid {
     display: grid;
-    grid-template-columns: 1.55fr minmax(340px, 1fr);
+    grid-template-columns: 1.6fr minmax(360px, 480px);
     gap: var(--gutter);
-    align-items: start;
-    align-content: start;
-    min-height: 60vh;
+    align-items: center;
+    align-content: center;
+    min-height: 70vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .ff-home .hero-main {
@@ -79,7 +81,7 @@ stylesheet: /assets/css/home.css
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 1.25rem;
+    gap: 1.5rem;
   }
 
   .ff-home .hero-eyebrow {
@@ -91,18 +93,22 @@ stylesheet: /assets/css/home.css
     font-weight: 800;
   }
 
-  .ff-home .hero-lead { max-width: 75ch; }
+  .ff-home .hero-lead { 
+    max-width: 68ch; 
+    line-height: 1.7;
+    font-size: 1.1rem;
+  }
 
   /* Side panel */
   .ff-home .hero-side-panel {
-    background: rgba(220, 217, 210, 0.92);
+    background: linear-gradient(135deg, rgba(220, 217, 210, 0.95), rgba(200, 197, 190, 0.92));
     color: var(--ink-900);
     display: flex;
     flex-direction: column;
-    gap: 1.1rem;
-    align-items: flex-start;
-    border-radius: var(--radius-lg);
-    border: 1px solid var(--stone-200);
+    gap: 1.1rem;2px 40px rgba(120, 116, 108, 0.35);
+    padding: calc(var(--card-pad) + 8px) var(--card-pad);
+    min-width: 340px;
+    max-width: 48olid var(--stone-200);
     box-shadow: 0 10px 30px var(--shadow-soft);
     padding: calc(var(--card-pad) + 6px) var(--card-pad);
     min-width: 320px;
@@ -149,18 +155,24 @@ stylesheet: /assets/css/home.css
   /* Highlights */
   .ff-home .hero-highlights {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-    gap: clamp(1rem, 2vw, 2rem);
-    margin-top: 1.25rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: clamp(1.25rem, 2.5vw, 2.5rem);
+    margin-top: 2rem;
   }
 
   .ff-home .hero-highlight {
-    background: rgba(220, 217, 210, 0.92);
-    padding: var(--card-pad);
+    background: white;
+    padding: calc(var(--card-pad) + 4px);
     border-radius: var(--radius-lg);
     border: 1px solid var(--stone-200);
-    box-shadow: 0 10px 30px var(--shadow-soft);
-    min-height: 180px;
+    box-shadow: 0 8px 24px rgba(120, 116, 108, 0.18);
+    min-height: 160px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .ff-home .hero-highlight:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 32px rgba(120, 116, 108, 0.25);
   }
 
   .ff-home .hero-highlight__label {
@@ -197,12 +209,26 @@ stylesheet: /assets/css/home.css
     justify-content: center;
     gap: 0.5rem;
   }
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .ff-home .btn-main:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 24px rgba(16, 92, 74, 0.35);
+    text-decoration: none;
+  }
 
-  .ff-home .btn-main {
-    background: var(--emerald-600);
-    color: #fff;
+  .ff-home .btn-ghost {
+    background: transparent;
+    color: var(--emerald-600);
     border-color: var(--emerald-600);
-    box-shadow: 0 6px 18px var(--shadow-soft);
+    transition: all 0.2s ease;
+  }
+  
+  .ff-home .btn-ghost:hover {
+    background: var(--emerald-600);
+    color: white;
+    text-decoration: nonedow-soft);
   }
 
   .ff-home .btn-ghost {
