@@ -20,7 +20,8 @@ test.describe("mobile navigation drawer", () => {
     await expect(backdrop).toBeAttached();
     await expect(backdrop).toHaveClass(/is-visible/);
 
-    await backdrop.click();
+    // Click backdrop to close (use coordinates to click on visible overlay area)
+    await page.mouse.click(50, 400);
 
     await expect(nav).not.toHaveClass(/is-open/);
     await expect(backdrop).not.toHaveClass(/is-visible/);
