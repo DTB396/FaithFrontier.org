@@ -77,7 +77,7 @@ layout: default
       <ul class="docket-list">
         {% for d in docket %}
           <li>
-            <time>{{ d.date }}</time> — <strong>{{ d.type }}</strong>:
+            <time>{{ d.date }}</time> — <strong>{{ d.type }}:</strong>
 			{% if d.file %}
 			  {% assign docket_file = d.file %}
 			  {% assign first_char = docket_file | slice: 0, 1 %}
