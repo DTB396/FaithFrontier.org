@@ -6,6 +6,8 @@ jurisdiction: "State of New Jersey"
 authority_primary: "Office of the Governor"
 status: "Awaiting Response"
 opened: 2025-12-18
+opramachine_url: "https://opramachine.com/body/new_jersey_office_of_the_governor"
+opramachine_user: "https://opramachine.com/user/x_devon_tyler_of_the_barber_mate"
 topics:
   - "Executive clemency"
   - "Public safety impact"
@@ -15,6 +17,12 @@ topics:
 ## Record purpose
 
 This administrative record preserves OPRA requests concerning executive clemency decisions and related public-safety impact records.
+
+## OPRAmachine Public Record
+
+This request is publicly tracked on OPRAmachine:
+- **View this request:** [Governor's Office OPRA Requests]({{ page.opramachine_url }})
+- **View all requests by filer:** [X (Devon Tyler of the Barber-Materio Family)]({{ page.opramachine_user }})
 
 ## Current status
 

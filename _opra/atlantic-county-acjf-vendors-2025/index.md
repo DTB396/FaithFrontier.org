@@ -8,6 +8,9 @@ authority_parallel:
   - "Atlantic County (General)"
   - "Atlantic County Improvement Authority (ACIA)"
 status: "Active"
+opened: 2024-05-08
+opramachine_url: "https://opramachine.com/body/atlantic_county"
+opramachine_user: "https://opramachine.com/user/x_devon_tyler_of_the_barber_mate"
 related_cases:
   - atl-l-003252-25
   - atl-l-002869-25
@@ -25,6 +28,12 @@ public_visibility: "Public record thread; protected internal operations kept sep
 This administrative record preserves Open Public Records Act (OPRA) requests and responses concerning vendor contracting, procurement, oversight, and systems relevant to the Atlantic County Justice Facility (ACJF).
 
 This page is a documentation index. It does not assert findings, legal conclusions, or accusations. Where interpretation is needed, it is kept in a separate notes file.
+
+## OPRAmachine Public Record
+
+This request is publicly tracked on OPRAmachine:
+- **View this request:** [Atlantic County OPRA Requests]({{ page.opramachine_url }})
+- **View all requests by filer:** [X (Devon Tyler of the Barber-Materio Family)]({{ page.opramachine_user }})
 
 ## Scope of requests
 
