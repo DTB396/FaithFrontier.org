@@ -608,13 +608,13 @@
   body {
     font-size: 12pt;
     line-height: 1.5;
-    color: #000;
-    background: #fff;
+    color: var(--pure-black);
+    background: var(--pure-white);
   }
   
   a {
     text-decoration: underline;
-    color: #000;
+    color: var(--pure-black);
   }
   
   /* Show URLs for links */

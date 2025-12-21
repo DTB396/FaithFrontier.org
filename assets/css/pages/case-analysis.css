@@ -168,13 +168,13 @@
   .case-analysis {
     page-break-inside: avoid;
     background: white;
-    border: 1px solid #ccc;
+    border: 1px solid var(--border-gray);
     color: black;
   }
   
   .analysis-disclaimer {
     background: white;
-    border: 1px solid #ffc107;
+    border: 1px solid var(--warning-yellow);
   }
   
   .analysis-section {

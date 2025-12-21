@@ -146,7 +146,7 @@
   color: var(--color-text, #f9fafb);
   background: linear-gradient(
     135deg,
-    #f9fafb 0%,
+    var(--cream-text) 0%,
     rgba(212, 165, 116, 0.9) 100%
   );
   -webkit-background-clip: text;

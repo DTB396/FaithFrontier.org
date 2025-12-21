@@ -337,7 +337,7 @@
   border-radius: 8px;
   text-align: left;
   border: 1px solid transparent;
-  color: #f9fafb;
+  color: var(--cream-text);
 }
 
 .nav-group > a {
@@ -443,12 +443,12 @@
   letter-spacing: 0.08em;
   text-transform: uppercase;
   font-size: 0.85rem;
-  color: #f9fafb;
+  color: var(--cream-text);
 }
 .nav-close {
   background: transparent;
   border: 1px solid rgba(184, 138, 57, 0.4);
-  color: #f9fafb;
+  color: var(--cream-text);
   width: 36px;
   height: 36px;
   border-radius: 8px;
@@ -567,7 +567,7 @@
   border-top: 2px solid var(--accent-brass);
   padding: var(--space-3xl) 0 var(--space-xl);
   font-size: 0.95rem;
-  color: #f9fafb;
+  color: var(--cream-text);
   background: rgba(15, 23, 42, 0.98);
   box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.3);
   text-align: center;
@@ -627,17 +627,17 @@
 .footer-about {
   max-width: 50rem;  /* Increased from 42rem */
   margin: 0 auto;
-  color: #f9fafb;
+  color: var(--cream-text);
   line-height: 1.7;
 }
 
 .footer-about p {
   margin: 0;
-  color: #f9fafb;
+  color: var(--cream-text);
 }
 
 .footer-about strong {
-  color: #ffffff;
+  color: var(--pure-white);
   font-weight: 600;
 }
 
@@ -652,7 +652,7 @@
 }
 
 .footer-nav a {
-  color: #f9fafb;
+  color: var(--cream-text);
   text-decoration: none;
   transition: color 0.2s ease;
   font-weight: 500;
@@ -672,7 +672,7 @@
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.8;
-  color: #f9fafb;
+  color: var(--cream-text);
 }
 
 .footer-motto {
@@ -691,7 +691,7 @@
   font-size: 0.88rem;
   line-height: 1.6;
   text-align: left;
-  color: #f9fafb;
+  color: var(--cream-text);
 }
 
 .footer-notice strong {
