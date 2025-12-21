@@ -633,6 +633,12 @@
 
 .footer-about p {
   margin: 0;
+  color: #f9fafb;
+}
+
+.footer-about strong {
+  color: #ffffff;
+  font-weight: 600;
 }
 
 .footer-nav ul {
@@ -649,6 +655,7 @@
   color: #f9fafb;
   text-decoration: none;
   transition: color 0.2s ease;
+  font-weight: 500;
 }
 
 .footer-nav a:hover {
@@ -665,6 +672,7 @@
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.8;
+  color: #f9fafb;
 }
 
 .footer-motto {
