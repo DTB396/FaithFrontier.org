@@ -178,10 +178,10 @@
   
   /* ===== LAYOUT & CONTAINERS ===== */
   
-  --container: 1140px;
+  --container: 1200px;           /* Increased from 1140px for better desktop reading */
   --container-wide: 1600px;
-  --container-narrow: 900px;
-  --container-text: 720px;
+  --container-narrow: 1000px;    /* Increased from 900px for better readability */
+  --container-text: 800px;       /* Increased from 720px for comfortable reading */
   --max-width: var(--container-wide);
   
   

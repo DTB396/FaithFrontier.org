@@ -5,7 +5,7 @@ summary: "Core theology, masterplan, recovery pipeline, and governance documents
 permalink: /tillerstead-sanctuary-vision/
 ---
 
-<section class="section-content" style="max-width: 60rem; margin: 0 auto 2.5rem;">
+<section class="section-content" style="max-width: 70rem; margin: 0 auto 2.5rem;">
   <h1>Tillerstead Sanctuary Vision</h1>
   <p class="lead">
     Explore how Faith Frontier Ecclesiastical Trust is pursuing a lawful, biblically grounded redevelopment of the former
@@ -13,7 +13,7 @@ permalink: /tillerstead-sanctuary-vision/
   </p>
 </section>
 
-<section class="section-content" style="max-width: 60rem; margin: 0 auto; display: grid; gap: 1.5rem;">
+<section class="section-content" style="max-width: 70rem; margin: 0 auto; display: grid; gap: 1.5rem;">
   <article class="card">
     <h2><a href="{{ '/theology-of-faith-frontier/' | relative_url }}">Biblical Foundations of Faith Frontier</a></h2>
     <p>How Scripture shapes sanctuary floors, agriculture, justice work, and recovery.</p>

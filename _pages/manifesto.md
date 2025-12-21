@@ -6,7 +6,7 @@ description: "The founding declaration of Faith Frontier: identity over bureaucr
 body_class: page-manifesto
 ---
 
-<section style="max-width: 60rem; margin: 0 auto;">
+<section style="max-width: 70rem; margin: 0 auto;">
 
   <header style="text-align: center; margin-bottom: 3rem;">
     <h1 style="font-size: clamp(2.5rem, 5.5vw, 4rem); margin-bottom: 1rem; color: var(--color-highlight);">The Faith Frontier Manifesto</h1>

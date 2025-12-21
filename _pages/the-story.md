@@ -6,7 +6,7 @@ description: "The complete story of Faith Frontier: from childhood duality to pa
 body_class: page-story
 ---
 
-<section style="max-width: 60rem; margin: 0 auto;">
+<section style="max-width: 70rem; margin: 0 auto;">
   
   <header style="text-align: center; margin-bottom: 3rem;">
     <h1 style="font-size: clamp(2.5rem, 5.5vw, 4rem); margin-bottom: 1rem; color: var(--ff-vintage-gold);">The Faith Frontier Story</h1>
@@ -140,7 +140,7 @@ body_class: page-story
 
 </section>
 
-<section style="max-width: 60rem; margin: 4rem auto; padding: 3rem 2rem; text-align: center; background: linear-gradient(135deg, rgba(90, 122, 111, 0.15) 0%, rgba(212, 165, 116, 0.1) 100%); border-radius: 12px; border: 2px solid var(--ff-vintage-gold); box-shadow: 0 4px 20px var(--brass-alpha-20);">
+<section style="max-width: 70rem; margin: 4rem auto; padding: 3rem 2rem; text-align: center; background: linear-gradient(135deg, rgba(90, 122, 111, 0.15) 0%, rgba(212, 165, 116, 0.1) 100%); border-radius: 12px; border: 2px solid var(--ff-vintage-gold); box-shadow: 0 4px 20px var(--brass-alpha-20);">
   <h2 style="margin-top: 0; color: var(--ff-cream);">Join the Mission</h2>
   <p style="font-size: 1.05rem; line-height: 1.7; color: var(--ff-cream);">
     Faith Frontier is not just Devon's story—it's a call to everyone who feels caught between systems, 

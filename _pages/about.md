@@ -8,7 +8,7 @@ body_class: page-about
 
 <!-- markdownlint-disable MD033 -->
 
-<section class="section-intro" style="max-width: 60rem; margin: 0 auto 3rem;">
+<section class="section-intro" style="max-width: 70rem; margin: 0 auto 3rem;">
   <h1>About Faith Frontier Ecclesiastical Trust</h1>
   <p class="lead">
     Faith Frontier is a Christian-informed public trust rooted in Biblical principles and devoted to New Jersey’s people. We
@@ -22,7 +22,7 @@ body_class: page-about
   </p>
 </section>
 
-<section class="section-content" style="max-width: 60rem; margin: 0 auto 3rem;">
+<section class="section-content" style="max-width: 70rem; margin: 0 auto 3rem;">
 
   <h2>Why We Formed</h2>
   <h2>The Story Behind Faith Frontier</h2>
@@ -96,7 +96,7 @@ body_class: page-about
 
 </section>
 
-<section class="section-content" style="max-width: 60rem; margin: 3rem auto; padding: 2.5rem; background: linear-gradient(135deg, rgba(15, 118, 110, 0.12) 0%, rgba(212, 165, 116, 0.08) 100%); border-radius: 12px; border-left: 4px solid var(--ff-vintage-gold); box-shadow: 0 4px 16px var(--shadow-alpha-20);">
+<section class="section-content" style="max-width: 70rem; margin: 3rem auto; padding: 2.5rem; background: linear-gradient(135deg, rgba(15, 118, 110, 0.12) 0%, rgba(212, 165, 116, 0.08) 100%); border-radius: 12px; border-left: 4px solid var(--ff-vintage-gold); box-shadow: 0 4px 16px var(--shadow-alpha-20);">
   <h2 style="margin-top: 0; color: var(--ff-cream);">For New Jersey Residents</h2>
   <p>
     This site is for you if you need clarity on how to navigate filings, hearings, public benefits, housing issues, or work
@@ -109,7 +109,7 @@ body_class: page-about
   </p>
 </section>
 
-<section style="max-width: 60rem; margin: 4rem auto; padding: 3rem 2rem; text-align: center; background: linear-gradient(135deg, rgba(176, 137, 104, 0.15) 0%, rgba(15, 118, 110, 0.1) 100%); border-radius: 12px; border: 2px solid var(--ff-secondary); box-shadow: 0 4px 20px rgba(176, 137, 104, 0.2);">
+<section style="max-width: 70rem; margin: 4rem auto; padding: 3rem 2rem; text-align: center; background: linear-gradient(135deg, rgba(176, 137, 104, 0.15) 0%, rgba(15, 118, 110, 0.1) 100%); border-radius: 12px; border: 2px solid var(--ff-secondary); box-shadow: 0 4px 20px rgba(176, 137, 104, 0.2);">
   <h2 style="margin-top: 0; color: var(--ff-cream);">Disclaimer</h2>
   <p style="font-size: 1.05rem; line-height: 1.7;">
     Faith Frontier Ecclesiastical Trust is not a law firm. Nothing on this site creates an attorney–client relationship or
