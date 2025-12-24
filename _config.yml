@@ -8,9 +8,10 @@ timezone: America/New_York
 author: Devon Tyler Barber
 
 # Brand assets
-logo_main_dark: "/_includes/logo-faithfrontier-header.svg"
-logo_main_light: "/_includes/logo-faithfrontier-header.svg"
-logo_main: "/_includes/logo-faithfrontier-header.svg" # legacy key retained for plugins/includes
+logo_main: "/assets/img/logo/logo-faithfrontier-header.svg"
+logo_main_dark: "/assets/img/logo/logo-faithfrontier-header.svg"
+logo_main_light: "/assets/img/logo/logo-faithfrontier-header.svg"
+logo: "/assets/img/logo/logo-faithfrontier-header.svg"
 logo_mark: "/assets/img/faithfrontier-mark.svg"
 brand_png: true
 logo_png_full_4000: "/assets/img/logo.png"
@@ -34,7 +35,7 @@ collections:
     permalink: /:title/
   manifesto:
     output: true
-    permalink: /manifesto/
+    permalink: /manifesto/:path/
   cases:
     output: true
     permalink: /cases/:path/
@@ -42,11 +43,12 @@ collections:
     output: true
     permalink: /essays/:slug/
   docs:
-    output: true
-    permalink: /docs/:name/
+  output: true
+  permalink: /docs/:path/
   trust:
-    output: true
-    permalink: /sanctuary/trust/:name/
+  output: true
+  permalink: /sanctuary/trust/:path/
+
   opra:
     output: true
     permalink: /opra/:path/
@@ -94,6 +96,8 @@ defaults:
       type: "opra"
     values:
       layout: "default"
+
+      performance_monitor: false
 
 # Plugins
 plugins:
