@@ -1,0 +1,128 @@
+# Docket entries for MER-L-002371-25
+# Mercer County Superior Court Civil Action
+
+- id: 2025-10-29-affidavit-of-indigency
+  date: '2025-10-29'
+  type: Filing
+  title: Affidavit of Indigency
+  file: /cases/mer-l-002371-25/filings/20251029-affidavit-of-indigency.pdf
+  notes: Application for fee waiver
+
+- id: 2025-10-29-verified-complaint
+  date: '2025-10-29'
+  type: Complaint
+  title: Verified Complaint
+  file: /cases/mer-l-002371-25/filings/20251029-verified-complaint.pdf
+  notes: Initial filing
+
+- id: 2025-11-11-notice-of-motion-otsc
+  date: '2025-11-11'
+  type: Motion
+  title: Notice of Motion for Order to Show Cause
+  file: /cases/mer-l-002371-25/filings/20251111-notice-of-motion-for-otsc.pdf
+
+- id: 2025-11-11-track-assignment
+  date: '2025-11-11'
+  type: Notice
+  title: Track Assignment Notice
+  file: /cases/mer-l-002371-25/filings/20251111-track-assignment.pdf
+  notes: Court assignment notification
+
+- id: 2025-11-12-proof-of-service
+  date: '2025-11-12'
+  type: Proof of Service
+  title: Proof of Service submitted by Devon Barber
+  file: /cases/mer-l-002371-25/filings/20251112-proof-of-service-submitted-by-devon-barber.pdf
+
+- id: 2025-11-13-order-indigency-denied
+  date: '2025-11-13'
+  type: Order
+  title: Order for Indigency Denied by Judge Hurd, Douglas H.
+  file: /cases/mer-l-002371-25/filings/20251113-order-for-indigency-denied-by-judge-hurd-douglas-h.pdf
+  notes: Fee waiver application denied
+
+- id: 2025-11-14-amended-complaint
+  date: '2025-11-14'
+  type: Complaint
+  title: Amended Complaint
+  file: /cases/mer-l-002371-25/filings/20251114-amended-complaint.pdf
+
+- id: 2025-11-14-cover-letter
+  date: '2025-11-14'
+  type: Filing
+  title: Cover Letter Correspondence
+  file: /cases/mer-l-002371-25/filings/20251114-cover-letter-correspondence.pdf
+
+- id: 2025-11-14-motion
+  date: '2025-11-14'
+  type: Motion
+  title: Motion
+  file: /cases/mer-l-002371-25/filings/20251114-motion.pdf
+
+- id: 2025-11-14-service-proof
+  date: '2025-11-14'
+  type: Proof of Service
+  title: Service Proof
+  file: /cases/mer-l-002371-25/filings/20251114-service-proof.pdf
+
+- id: 2025-11-15-proof-of-service
+  date: '2025-11-15'
+  type: Proof of Service
+  title: Proof of Service by DTB
+  file: /cases/mer-l-002371-25/filings/11-15-proof-of-service-by-dtb.pdf
+
+- id: 2025-11-19-deficiency-correction
+  date: '2025-11-19'
+  type: Filing
+  title: Deficiency Correction
+  file: /cases/mer-l-002371-25/filings/20251119-deficiency-correction.pdf
+
+- id: 2025-11-19-motion-by-dtb
+  date: '2025-11-19'
+  type: Motion
+  title: Motion by DTB
+  file: /cases/mer-l-002371-25/filings/20251119-motion-by-dtb.pdf
+
+- id: 2025-12-05-order-waiver-fees-granted
+  date: '2025-12-05'
+  type: Order
+  title: Order for Waiver of Fees Granted
+  file: /cases/mer-l-002371-25/filings/20251205-order-for-waiver-of-fees-granted.pdf
+  notes: Fee waiver approved
+
+- id: 2025-12-06-supplemental-objection
+  date: '2025-12-06'
+  type: Filing
+  title: Supplemental Objection by DTB
+  file: /cases/mer-l-002371-25/filings/20251206-supplemental-objection-by-dtb.pdf
+
+- id: 2025-12-09-proof-service-judicial-review
+  date: '2025-12-09'
+  type: Proof of Service
+  title: Proof of Service and Request for Judicial Review
+  file: /cases/mer-l-002371-25/filings/20251209-proof-of-service-and-request-for-judicial-review.pdf
+
+- id: 2025-12-15-letter-correspondence
+  date: '2025-12-15'
+  type: Filing
+  title: Letter Correspondence by DTB
+  file: /cases/mer-l-002371-25/filings/20251215-letter-correspondence-by-dtb.pdf
+
+- id: 2025-12-15-order-error
+  date: '2025-12-15'
+  type: Order
+  title: Order Error
+  file: /cases/mer-l-002371-25/filings/20251215-order-error.pdf
+  notes: Correction notice
+
+- id: 2025-12-15-status-clarification
+  date: '2025-12-15'
+  type: Filing
+  title: Plaintiff's Status Clarification
+  file: /cases/mer-l-002371-25/filings/20251215-plaintiffs-status-clarification.pdf
+
+- id: 2025-12-16-letter-with-certification
+  date: '2025-12-16'
+  type: Certification
+  title: Letter with Certification
+  file: /cases/mer-l-002371-25/filings/20251216-letter-with-certification.pdf
