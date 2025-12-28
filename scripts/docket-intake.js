@@ -276,7 +276,16 @@ const main = () => {
 
     const date = guessDate(base, st.mtimeMs);
     const type = guessType(base);
-    const title = base.replace(/\.pdf$/i,'').replace(/[_-]+/g,' ').replace(/\s+/g,' ').trim();
+    
+    // Clean title: remove date prefixes and normalize
+    let title = base.replace(/\.pdf$/i,'');
+    // Remove date prefix (YYYY-MM-DD or YYYY_MM_DD or YYYYMMDD)
+    title = title.replace(/^\d{4}[-_]?\d{2}[-_]?\d{2}[-_]?/g, '');
+    // Remove type prefix if redundant
+    title = title.replace(new RegExp(`^${type}[-_\\s]+`, 'i'), '');
+    // Normalize separators and spacing
+    title = title.replace(/[_-]+/g,' ').replace(/\s+/g,' ').trim();
+    
     const stub = slugifyFile(base);
     let newName = `${date}_${type}_${stub}.pdf`;
 
