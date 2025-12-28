@@ -49,64 +49,72 @@ hero_highlights:
       </span>
     </div>
   </a>
+<div class="cta-row text-center">
+  <a class="btn btn-primary" href="/stewardship/">Explore the Stewardship Pathway</a>
+  <a class="btn btn-ghost" href="/programs/emergency-housing/">Emergency Housing</a>
+  <a class="btn btn-ghost" href="/manifesto/">Read the Manifesto</a>
+</div>
 
-  <div class="cta-row">
-    <a class="btn btn-primary" href="/stewardship/">Explore the pathway</a>
-    <a class="btn btn-ghost" href="/programs/emergency-housing/">Emergency housing</a>
-    <a class="btn btn-ghost" href="/manifesto/">Read the manifesto</a>
-  </div>
+<div class="home-cards text-center">
+  <article class="home-card">
+    <h3 class="h5">Begin with public records</h3>
+    <p class="small">
+      Access OPRA administrative records and timelines, with links to official public tracking where available.
+    </p>
+    <a class="btn btn-ghost btn--sm" href="/opra/">View OPRA index →</a>
+  </article>
+{% include featured-essays.html %}
+  <article class="home-card">
+    <h3 class="h5">Navigate cases and filings</h3>
+    <p class="small">
+      A structured case library for record navigation. Materials are indexed for clarity and do not replace filed pleadings.
+    </p>
+    <a class="btn btn-ghost btn--sm" href="/cases/">Browse case library →</a>
+  </article>
 
-  <div class="home-cards">
-    <article class="home-card">
-      <h3 class="h5">Start with public records</h3>
-      <p class="small">
-        Browse OPRA administrative records and timelines, including links to public tracking where available.
-      </p>
-      <a class="btn btn-ghost btn--sm" href="/opra/">Open OPRA index →</a>
-    </article>
+  <article class="home-card">
+    <h3 class="h5">Learn the process</h3>
+    <p class="small">
+      Civic literacy resources covering terminology, timelines, and practical procedural context.
+    </p>
+    <a class="btn btn-ghost btn--sm" href="/stewardship-resources/">Stewardship resources →</a>
+  </article>
+</div>
 
-    <article class="home-card">
-      <h3 class="h5">Navigate cases and filings</h3>
-      <p class="small">
-        A structured case library for record navigation. Items are indexed for clarity and do not substitute for filed
-        pleadings.
-      </p>
-      <a class="btn btn-ghost btn--sm" href="/cases/">Browse cases →</a>
-    </article>
+<hr />
 
-    <article class="home-card">
-      <h3 class="h5">Learn the process</h3>
-      <p class="small">
-        Civic literacy resources: terminology, timelines, and practical checklists designed for real-world use.
-      </p>
-      <a class="btn btn-ghost btn--sm" href="/stewardship-resources/">Stewardship resources →</a>
-    </article>
-  </div>
+<div class="home-boundaries text-center">
+  <p class="section-eyebrow">Boundaries</p>
+  <h3 class="section-heading h4">What this organization is—and is not</h3>
+  <ul class="bullets bullets--centered">
+    <li>
+      <strong>Yes:</strong> transparent documentation, public-records indexing, and practical constitutional initiatives.
+    </li>
+    <li>
+      <strong>Yes:</strong> lawful stewardship efforts pursued with regulatory and ethical compliance.
+    </li>
+    <li>
+      <strong>No:</strong> legal representation, legal advice, or guidance intended to evade oversight.
+    </li>
+    <li>
+      <strong>No:</strong> unverified claims presented as fact; corrections are logged when identified.
+    </li>
+  </ul>
+</div>
+<style>
+.text-center {
+  text-align: center;
+}
+
+.bullets--centered {
+  display: inline-block;
+  text-align: left;
+}
+</style>
 
   <hr />
 
-  <div class="home-boundaries">
-    <p class="section-eyebrow">Boundaries</p>
-    <h3 class="section-heading h4">What this site is—and is not</h3>
-    <ul class="bullets">
-      <li>
-        <strong>Yes:</strong> transparent documentation, public records indexing, and practical education.
-      </li>
-      <li>
-        <strong>Yes:</strong> lawful stewardship initiatives pursued with permits, inspections, and compliance.
-      </li>
-      <li>
-        <strong>No:</strong> legal representation, legal advice, or instructions to evade oversight.
-      </li>
-      <li>
-        <strong>No:</strong> unverified claims presented as fact; corrections are logged when needed.
-      </li>
-    </ul>
-  </div>
-
-  <hr />
-
-  {% include featured-essays.html %}
+  
 
   <div class="cta-row cta-row--split">
     <a class="btn btn-primary" href="/contact/">Contact / record access</a>
