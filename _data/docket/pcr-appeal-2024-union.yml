@@ -1,10 +1,10 @@
 - id: 2024-11-29-order-granted-ifp
-  date: 2024-11-29
+  date: 2024-11-29T00:00:00.000Z
   type: Order
   title: Order Granted - In Forma Pauperis
-  file: order-granted-ifp.pdf
+  file: /cases/pcr-appeal-2024-union/docket/order-granted-ifp.pdf
 - id: 2024-11-29-order-granted
-  date: 2024-11-29
+  date: 2024-11-29T00:00:00.000Z
   type: Order
   title: Order Granted
-  file: order-granted.pdf
+  file: /cases/pcr-appeal-2024-union/docket/order-granted.pdf
