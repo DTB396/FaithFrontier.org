@@ -111,12 +111,15 @@
   /* Accessible color pairings */
   --text-on-light: var(--ink-900);          /* 17.21:1 on white */
   --text-on-dark: var(--cream-50);          /* 18.59:1 on navy950 */
+  --text-on-dark-muted: var(--muted-300);   /* 13.09:1 on navy950 */
   --text-muted-on-light: var(--ink-700);    /* 11.70:1 on white */
   --text-muted-on-dark: var(--muted-300);   /* 13.09:1 on navy950 */
   --accent-on-light: var(--emerald-700);    /* 7.92:1 on white */
   --accent-on-dark: var(--emerald-300);     /* 12.75:1 on navy950 */
   --secondary-on-light: var(--brass-700);   /* 6.12:1 on white */
   --secondary-on-dark: var(--brass-500);    /* 8.73:1 on navy950 */
+  --text-on-brass: var(--ink-900);          /* 7.73:1 on brass-500 */
+  --text-on-emerald: var(--cream-50);       /* High contrast on emerald */
   
   /* Legacy aliases (for backward compatibility) */
   --color-surface: var(--ff-surface);
