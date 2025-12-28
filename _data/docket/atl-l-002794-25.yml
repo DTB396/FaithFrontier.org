@@ -1,33 +1,59 @@
-- id: 2025-10-03-verified-complaint
-  date: '2025-10-03'
-  type: Filing
-  title: Verified Complaint and Case Information Statement
-  file: /cases/atl-l-002794-25/docket/20251003-verified-complaint-and-cis.pdf
-- id: 2025-10-07-track-assignment-notice
-  date: '2025-10-07'
+- id: 2025-11-25-2025-11-25-schedule-notice
+  date: '2025-11-25'
   type: Notice
-  title: Track Assignment Notice (Team 102)
-  file: /cases/atl-l-002794-25/docket/2025-10-07_NJSC_ATL-L-002794-25_TrackAssignment_Notice_Team102.pdf
-- id: 2025-10-07-proposed-order-track
-  date: '2025-10-07'
+  title: schedule notice
+  file: /cases/atl-l-002794-25/filings/2025-11-25_Notice_2025-11-25-schedule-notice.pdf
+  notes: 'Intake: moved from _inbox'
+- id: 2025-11-25-2025-11-25-plaintiffs-reply-brief-in-opposition-to-mo
+  date: '2025-11-25'
+  type: Brief
+  title: plaintiffs reply brief in opposition to motion and plaintiffs second amended complaint
+  file: /cases/atl-l-002794-25/filings/2025-11-25_Brief_2025-11-25-plaintiffs-reply-brief-in-opposition-to-motion-and-plaintiffs-second-amended-complaint.pdf
+  notes: 'Intake: moved from _inbox'
+- id: 2025-11-24-2025-11-24-defendants-motion-to-dismiss-in-lieu-of-an
+  date: '2025-11-24'
   type: Motion
-  title: Proposed Order for Track Reassignment
-  file: /cases/atl-l-002794-25/docket/20251007-proposed-form-of-order-submitted-by-devon-barber.pdf
-- id: 2025-10-07-subpoenas
-  date: '2025-10-07'
+  title: defendants motion to dismiss in lieu of an answer
+  file: /cases/atl-l-002794-25/filings/2025-11-24_Motion_2025-11-24-defendants-motion-to-dismiss-in-lieu-of-an-answer.pdf
+  notes: 'Intake: moved from _inbox'
+- id: 2025-11-08-2025-11-08-certification-of-dtb-re-injuries
+  date: '2025-11-08'
   type: Filing
-  title: Subpoenas Duces Tecum with Statement of Relevance
-  file: /cases/atl-l-002794-25/docket/2025-10-07_NJSC_ATL-L-002794-25_Barber_SubpoenasDucesTecum_with_ExhibitA_StatementOfRelevance.pdf
-- id: 2025-10-14-consumer-fraud-notice
-  date: '2025-10-14'
-  type: Notice
-  title: Notice of Consumer Fraud Act Claim
-  file: /cases/atl-l-002794-25/docket/20251014-notice-consumer-fraud-act.pdf
-- id: 2025-10-14-order-fee-waiver
-  date: '2025-10-14'
+  title: certification of dtb re injuries
+  file: /cases/atl-l-002794-25/filings/2025-11-08_Filing_2025-11-08-certification-of-dtb-re-injuries.pdf
+  notes: 'Intake: moved from _inbox'
+- id: 2025-11-08-2025-11-08-supplemental-certification
+  date: '2025-11-08'
+  type: Filing
+  title: supplemental certification
+  file: /cases/atl-l-002794-25/filings/2025-11-08_Filing_2025-11-08-supplemental-certification.pdf
+  notes: 'Intake: moved from _inbox'
+- id: 2025-11-07-order-track-change-granted
+  date: '2025-11-07'
   type: Order
-  title: Order Granting Fee Waiver
-  file: /cases/atl-l-002794-25/docket/20251014-order-fee-waiver.pdf
+  title: Order Granting Track-3 Reassignment
+  file: /cases/atl-l-002794-25/docket/20251107-order-track-change-granted.pdf
+- id: 2025-11-07-2025-11-07-certificate-of-service-with-exhibit-notice
+  date: '2025-11-07'
+  type: Notice
+  title: certificate of service with exhibit notice of correction
+  file: /cases/atl-l-002794-25/filings/2025-11-07_Notice_2025-11-07-certificate-of-service-with-exhibit-notice-of-correction.pdf
+  notes: 'Intake: moved from _inbox'
+- id: 2025-10-28-first-amended-complaint
+  date: '2025-10-28'
+  type: Filing
+  title: First Amended Complaint with Exhibits
+  file: /cases/atl-l-002794-25/docket/20251028-njsc-atl-l-002794-25-barber-firstamendedcomplaint-with-exhibits-pdf.pdf
+- id: 2025-10-28-pcr-motion-track
+  date: '2025-10-28'
+  type: Brief
+  title: PCR in Support of Motion to Change Track
+  file: /cases/atl-l-002794-25/docket/20251028-njsc-atl-l-002794-25-barber-pcr-insupport-of-motiontochangetrack-pdf.pdf
+- id: 2025-10-22-correspondence-clarification
+  date: '2025-10-22'
+  type: Other
+  title: Correspondence — Clarification of Factual Background
+  file: /cases/atl-l-002794-25/docket/20251022-njsc-atl-l-002794-25-barber-correspondence-clarification-factualbackground-pdf.pdf
 - id: 2025-10-16-motion-track-change
   date: '2025-10-16'
   type: Motion
@@ -48,23 +74,33 @@
   type: Exhibit
   title: Exhibit — OffenderWatch Record (Joseph Hardemon)
   file: /cases/atl-l-002794-25/docket/20251016-njsc-atl-l-002794-25-exhibit-offenderwatch-record-josephhardemon-pdf.pdf
-- id: 2025-10-22-correspondence-clarification
-  date: '2025-10-22'
-  type: Other
-  title: Correspondence — Clarification of Factual Background
-  file: /cases/atl-l-002794-25/docket/20251022-njsc-atl-l-002794-25-barber-correspondence-clarification-factualbackground-pdf.pdf
-- id: 2025-10-28-first-amended-complaint
-  date: '2025-10-28'
-  type: Filing
-  title: First Amended Complaint with Exhibits
-  file: /cases/atl-l-002794-25/docket/20251028-njsc-atl-l-002794-25-barber-firstamendedcomplaint-with-exhibits-pdf.pdf
-- id: 2025-10-28-pcr-motion-track
-  date: '2025-10-28'
-  type: Brief
-  title: PCR in Support of Motion to Change Track
-  file: /cases/atl-l-002794-25/docket/20251028-njsc-atl-l-002794-25-barber-pcr-insupport-of-motiontochangetrack-pdf.pdf
-- id: 2025-11-07-order-track-change-granted
-  date: '2025-11-07'
+- id: 2025-10-14-consumer-fraud-notice
+  date: '2025-10-14'
+  type: Notice
+  title: Notice of Consumer Fraud Act Claim
+  file: /cases/atl-l-002794-25/docket/20251014-notice-consumer-fraud-act.pdf
+- id: 2025-10-14-order-fee-waiver
+  date: '2025-10-14'
   type: Order
-  title: Order Granting Track-3 Reassignment
-  file: /cases/atl-l-002794-25/docket/20251107-order-track-change-granted.pdf
+  title: Order Granting Fee Waiver
+  file: /cases/atl-l-002794-25/docket/20251014-order-fee-waiver.pdf
+- id: 2025-10-07-track-assignment-notice
+  date: '2025-10-07'
+  type: Notice
+  title: Track Assignment Notice (Team 102)
+  file: /cases/atl-l-002794-25/docket/2025-10-07_NJSC_ATL-L-002794-25_TrackAssignment_Notice_Team102.pdf
+- id: 2025-10-07-proposed-order-track
+  date: '2025-10-07'
+  type: Motion
+  title: Proposed Order for Track Reassignment
+  file: /cases/atl-l-002794-25/docket/20251007-proposed-form-of-order-submitted-by-devon-barber.pdf
+- id: 2025-10-07-subpoenas
+  date: '2025-10-07'
+  type: Filing
+  title: Subpoenas Duces Tecum with Statement of Relevance
+  file: /cases/atl-l-002794-25/docket/2025-10-07_NJSC_ATL-L-002794-25_Barber_SubpoenasDucesTecum_with_ExhibitA_StatementOfRelevance.pdf
+- id: 2025-10-03-verified-complaint
+  date: '2025-10-03'
+  type: Filing
+  title: Verified Complaint and Case Information Statement
+  file: /cases/atl-l-002794-25/docket/20251003-verified-complaint-and-cis.pdf
