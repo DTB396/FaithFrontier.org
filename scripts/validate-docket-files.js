@@ -100,7 +100,10 @@ const validateYaml = (filePath) => {
       }
       
       // Validate type
-      const validTypes = ['Filing', 'Order', 'Notice', 'Brief', 'Exhibit', 'Motion', 'Other'];
+      const validTypes = [
+        'Filing', 'Order', 'Notice', 'Brief', 'Exhibit', 'Motion', 'Other',
+        'Complaint', 'Proposed Order', 'Proof of Service', 'Request', 'Certification'
+      ];
       if (entry.type && !validTypes.includes(entry.type)) {
         log.warn(`Entry ${entryNum} has non-standard type: ${entry.type}`);
         log.info(`Valid types: ${validTypes.join(', ')}`);

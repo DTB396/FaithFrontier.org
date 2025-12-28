@@ -62,19 +62,8 @@
 <!-- Fonts - Inter and Manrope optimized for FaithFrontier -->
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
 
-
-<!-- Design tokens + unified theme system -->
-<link rel="stylesheet" href="{{ '/assets/css/tokens.css' | relative_url }}">
-<link rel="stylesheet" href="{{ '/assets/css/utilities.css' | relative_url }}">
-
-<!-- Main stylesheet (imports theme.css) -->
+<!-- Main stylesheet (imports all base, layout, component, utility CSS) -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
-
-<!-- Responsive enhancements for mobile and tablet -->
-<link rel="stylesheet" href="{{ '/assets/css/responsive-enhancements.css' | relative_url }}">
-
-<!-- Print styles -->
-<link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print">
 
 <!-- Case-only styles -->
 {% if page.layout == 'case-enhanced' or page.layout == 'case' %}
