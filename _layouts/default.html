@@ -60,5 +60,10 @@
         <script src="{{ src | relative_url }}"></script>
       {% endfor %}
     {% endif %}
+
+    {%- comment -%}
+      Floating Spotify Player (persists across all pages)
+    {%- endcomment -%}
+    {% include spotify-player.html %}
   </body>
 </html>
