@@ -32,6 +32,8 @@
       If you hear anything that conflicts with our mission, please contact 
       <a href="mailto:dTb33@PM.me">dTb33@PM.me</a>. We will listen, consider removing the artist or song, 
       or reply with pastoral advisement on why we left it up. <em>Darkness to light.</em></p>
+      <p style="margin-top: 8px; font-size: 11px; color: #6c757d;"><strong>Full songs require Spotify Premium.</strong> 
+      Free users hear 30-second previews. Click any song to open in Spotify for full playback. Artists receive credit for all plays.</p>
     </div>
   </div>
 </div>
@@ -41,7 +43,7 @@
 .spotify-player-collapsed {
   position: fixed;
   bottom: 20px;
-  right: 20px;
+  left: 20px; /* Moved to left to avoid theme toggle */
   z-index: 9999;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
@@ -78,7 +80,7 @@
   display: none;
   position: fixed;
   bottom: 80px;
-  right: 20px;
+  left: 20px; /* Aligned with toggle button */
   width: 380px;
   max-width: calc(100vw - 40px);
   background: white;
@@ -201,7 +203,7 @@
 @media (max-width: 480px) {
   .spotify-player-collapsed {
     bottom: 10px;
-    right: 10px;
+    left: 10px; /* Aligned to left on mobile */
   }
   
   .spotify-toggle-btn {
@@ -216,12 +218,12 @@
   
   .spotify-player-content {
     bottom: 60px;
-    right: 10px;
+    left: 10px; /* Aligned to left on mobile */
     width: calc(100vw - 20px);
   }
   
   .spotify-disclaimer {
-    font-size: 11px;
+    font-size: 10px;
   }
 }
 
