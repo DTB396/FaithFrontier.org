@@ -142,7 +142,7 @@
   file: /cases/atl-l-003252-25/filings/20251216-proposed-order.pdf
 - id: 20251215-letter-opra-extension-request
   date: '2025-12-15'
-type: Notice
+  type: Notice
   title: Letter Correspondence - OPRA Extension Request
   file: /cases/atl-l-003252-25/filings/20251215-letter-correspondence-opra-extension-request.pdf
 - id: 20251213-certification-packet
@@ -172,7 +172,7 @@ type: Notice
   file: /cases/atl-l-003252-25/filings/20251211-certification-of-service.pdf
 - id: 20251211-cover-letter
   date: '2025-12-11'
-type: Notice
+  type: Notice
   title: Cover Letter
   file: /cases/atl-l-003252-25/filings/20251211-cover-letter.pdf
 - id: 20251211-dtb-certification
