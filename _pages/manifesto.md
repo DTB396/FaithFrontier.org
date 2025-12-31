@@ -156,7 +156,7 @@ body_class: page-manifesto
     </p>
 
   </article>
-
+{% include doctrine-essay-map.html %}
   <section style="margin: 4rem auto; padding: 3rem 2rem; text-align: center; background: rgba(15, 118, 110, 0.15); border-radius: 1rem; border: 2px solid var(--accent-emerald);">
     <h2 style="margin-top: 0;">Walk This Frontier</h2>
     <p style="font-size: 1.1rem; line-height: 1.8; max-width: 40rem; margin: 0 auto 2rem;">
