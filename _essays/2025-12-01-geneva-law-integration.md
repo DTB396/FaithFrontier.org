@@ -4,11 +4,7 @@ title: "Geneva Foundations for Faith Frontier"
 date: 2025-12-01
 permalink: /essays/geneva-law-integration/
 categories: [faith, law, mission]
-tags:
-  - Geneva Bible
-  - biblical law
-  - mission strategy
-  - scripture references
+tags: [doctrine]
 description: "A thesis on integrating biblical law, sourced from the 1599 Geneva Bible, into Faith Frontier's mission and tooling."
 author: Faith Frontier Ecclesiastical Trust
 ---
