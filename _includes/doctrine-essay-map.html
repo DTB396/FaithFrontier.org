@@ -1,0 +1,37 @@
+{% assign essays = site.essays | default: site.posts %}
+{% assign doctrine = essays | where_exp: "p", "p.tags contains 'doctrine' or p.category contains 'theology' or p.categories contains 'theology'" %}
+{% assign doctrine_sorted = doctrine | sort: "date" | reverse %}
+
+<section class="ff-doctrine-map" aria-labelledby="ff-doctrine-map-title">
+  <h2 id="ff-doctrine-map-title">Doctrinal Library</h2>
+  <p class="ff-doctrine-map__lede">
+    A curated index of Faith Frontier teachings and witness documents. Each entry is written to be citeable, readable, and verifiable.
+  </p>
+
+  <div class="ff-doctrine-map__grid">
+    {% for post in doctrine_sorted limit: 24 %}
+      <article class="ff-doctrine-card">
+        <h3 class="ff-doctrine-card__title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h3>
+        {% if post.description %}
+          <p class="ff-doctrine-card__desc">{{ post.description }}</p>
+        {% endif %}
+        <p class="ff-doctrine-card__meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+          {% if post.tags %} · {{ post.tags | join: ", " }}{% endif %}
+        </p>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+<style>
+.ff-doctrine-map { padding: 2rem 0; }
+.ff-doctrine-map__lede { max-width: 72ch; }
+.ff-doctrine-map__grid { display: grid; grid-template-columns: 1fr; gap: 1rem; margin-top: 1.25rem; }
+.ff-doctrine-card { background: #fff; border: 1px solid var(--stone-200); border-radius: var(--radius-lg); padding: 1rem; }
+.ff-doctrine-card__title { margin: 0 0 .35rem; }
+.ff-doctrine-card__desc { margin: 0 0 .6rem; }
+.ff-doctrine-card__meta { margin: 0; font-size: .92rem; color: var(--ink-600); }
+@media (min-width: 920px){ .ff-doctrine-map__grid{ grid-template-columns: 1fr 1fr; } }
+</style>
