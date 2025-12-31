@@ -97,16 +97,22 @@ const validateYaml = (filePath) => {
       if (entry.date) {
         let dateStr;
         if (entry.date instanceof Date) {
-          // Convert Date object to YYYY-MM-DD string for validation
-          const year = entry.date.getFullYear();
-          const month = String(entry.date.getMonth() + 1).padStart(2, '0');
-          const day = String(entry.date.getDate()).padStart(2, '0');
-          dateStr = `${year}-${month}-${day}`;
+          // Check if Date object is valid
+          if (isNaN(entry.date.getTime())) {
+            log.error(`Entry ${entryNum} has invalid date: ${entry.date}`);
+            entryValid = false;
+          } else {
+            // Convert Date object to YYYY-MM-DD string for validation
+            const year = entry.date.getFullYear();
+            const month = String(entry.date.getMonth() + 1).padStart(2, '0');
+            const day = String(entry.date.getDate()).padStart(2, '0');
+            dateStr = `${year}-${month}-${day}`;
+          }
         } else {
           dateStr = entry.date;
         }
         
-        if (!/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
+        if (dateStr && !/^\d{4}-\d{2}-\d{2}$/.test(dateStr)) {
           log.error(`Entry ${entryNum} has invalid date format: ${entry.date} (should be YYYY-MM-DD)`);
           entryValid = false;
         }
