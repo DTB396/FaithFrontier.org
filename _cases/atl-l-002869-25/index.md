@@ -1,42 +1,85 @@
 ---
+
 layout: case
-title: ATL-L-002869-25 – Declaratory Relief
+title: ATL-L-002869-25 – Barber v. CarMax
 short_title: ATL-L-002869-25
 slug: atl-l-002869-25
 permalink: /cases/atl-l-002869-25/
 court: Superior Court of New Jersey, Law Division
 venue: Atlantic County
-case_type: Declaratory Judgment
+case_type: Civil Action – Declaratory and Equitable Relief (Vehicle Ownership and Indemnity)
 role: Plaintiff
 dockets:
-  - ATL-L-002869-25
-  - ATL-L-002908-25
-primary_docket: ATL-L-002869-25
-status: active
-filed_date: 2025-10-14
-judge: null
-tags:
-  - civil
-  - declaratory-relief
-  - vehicle-registration
-assets_dir: /cases/atl-l-002869-25/filings/
-overview: >
-  Active Law Division declaratory-judgment action seeking judicial determination
-  of ownership and indemnity rights arising from disputed vehicle registration
-  and enforcement records. Related pleadings and track assignment activity
-  remain pending as of October 2025.
-redirect_from:
-  - /cases/atl-l-002908-25/
-case_slug: atl-l-002869-25
+
+* ATL-L-002869-25
+* ATL-L-002908-25
+  primary_docket: ATL-L-002869-25
+  status: active
+  filed_date: 2025-10-14
+  judge: null
+  tags:
+* civil
+* declaratory-relief
+* equitable-relief
+* vehicle-title
+* indemnity
+  assets_dir: /cases/atl-l-002869-25/filings/
+  overview: >
+  Active Law Division civil action seeking declaratory and equitable relief concerning
+  disputed vehicle ownership, title status, and indemnity obligations arising from
+  vehicle sale and registration records. Plaintiff challenges inaccurate or conflicting
+  records used for enforcement purposes and seeks judicial clarification of rights and
+  responsibilities. Related pleadings and track assignment activity remain pending.
+  redirect_from:
+* /cases/atl-l-002908-25/
+  case_slug: atl-l-002869-25
+
 ---
 
-Action seeking declaratory relief related to vehicle ownership. The record below traces the verified complaint, indigency affidavit, track assignment, and amended pleading.
+## Case Overview
 
-## Status Overview
+This Law Division action is brought by Plaintiff **Devon Tyler Barber** against **CarMax** and related entities. The action seeks declaratory and equitable relief to resolve disputes concerning vehicle ownership, title status, and indemnity obligations arising from the sale, registration, and subsequent use of vehicle records for enforcement and administrative purposes.
 
-- **14 Oct 2025:** Verified complaint accompanied by indigency affidavit opened the matter.
-- **17 Oct 2025:** Track assignment acknowledged the declaratory nature; awaiting reassignment similar to ATL-L-002794-25.
-- **29 Oct 2025:** Amended complaint filed to clarify title relief, damages, and constitutional claims.
-- **Ongoing:** Service proofs and indemnity negotiations remain in progress; updates will be layered into this record as orders issue.
+Plaintiff alleges that inaccurate, inconsistent, or improperly maintained vehicle records resulted in enforcement actions and legal exposure inconsistent with the true ownership and contractual allocation of responsibility. The action seeks a judicial declaration clarifying ownership, liability, and indemnity rights.
+
+---
+
+## Core Issues Presented
+
+* Whether Plaintiff retained ownership or legal responsibility for the vehicle at issue following the transaction with CarMax;
+* Whether title and registration records accurately reflected the parties’ rights and obligations;
+* Whether Defendants bear indemnity or corrective obligations arising from errors or omissions in vehicle-transfer documentation;
+* Whether declaratory and equitable relief is necessary to prevent continued or future enforcement based on erroneous records.
+
+---
+
+## Procedural Posture
+
+* **14 Oct 2025:** Verified Complaint filed, accompanied by an indigency affidavit, initiating the Law Division action.
+* **17 Oct 2025:** Track Assignment Notice issued recognizing the declaratory nature of the action; Plaintiff requested reassignment consistent with comparable Track 3 matters.
+* **29 Oct 2025:** Amended Complaint filed clarifying requests for declaratory relief, related damages, and constitutional claims tied to enforcement consequences.
+* **Ongoing:** Proofs of service, responses, and discussions concerning corrective action and indemnity remain in progress; no final dispositive orders have issued.
+
+---
+
+## Relief Requested
+
+Plaintiff seeks:
+
+1. A declaratory judgment determining vehicle ownership and responsibility;
+2. An order directing correction of inaccurate title and registration records;
+3. Declaratory relief establishing indemnity obligations, if any;
+4. Such equitable and ancillary relief as the Court deems just and necessary.
+
+---
+
+## Docket
 
 {% include case-analysis.html %}
+
+---
+
+## Notes
+
+* This index page is intended to provide a neutral, record-based summary of the declaratory action.
+* Operative claims and defenses are governed by the Amended Complaint and subsequent court orders.

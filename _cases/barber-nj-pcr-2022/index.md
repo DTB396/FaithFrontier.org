@@ -1,40 +1,92 @@
 ---
+
 layout: case
-title: Barber PCR (2022)
-short_title: Barber PCR
+title: Barber PCR (2022) – State v. Barber (Hardemon matters)
+short_title: Barber PCR (2022)
 slug: barber-nj-pcr-2022
 permalink: /cases/barber-nj-pcr-2022/
-court: Superior Court of New Jersey
+court: Superior Court of New Jersey, Law Division, Criminal Part
 venue: Atlantic County
-case_type: Post-Conviction Relief
+case_type: Post-Conviction Relief (R. 3:22)
 role: Petitioner
 dockets:
-  - ATL-22-002292
-  - ATL-22-002313
-primary_docket: ATL-22-002292
-status: pending
-filed_date: 2025-10-26
-judge: null
-tags:
-  - post-conviction-relief
-  - pcr
-  - criminal
-assets_dir: /cases/barber-nj-pcr-2022/filings/
-overview: >
-  Pending post-conviction relief proceeding challenging a 2022 conviction.
-  The petition asserts claims regarding alleged due process deficiencies
-  and record integrity issues. A verified petition and supporting
-  certifications were filed in October 2025. Requests for supplemental
-  record transmittal remain pending.
-redirect_from:
-  - /cases/atl-22-002292/
-  - /cases/atl-22-002313/
-case_slug: barber-nj-pcr-2022
+
+* ATL-22-002292
+* ATL-22-002313
+  primary_docket: ATL-22-002292
+  status: pending
+  filed_date: 2025-10-26
+  judge: null
+  tags:
+* post-conviction-relief
+* pcr
+* criminal
+* due-process
+* ineffective-assistance
+  assets_dir: /cases/barber-nj-pcr-2022/filings/
+  overview: >
+  Consolidated post-conviction relief proceedings challenging a 2022 conviction and
+  related proceedings. The petition asserts violations of due process, ineffective
+  assistance of counsel, lack of notice, and record integrity failures arising from the
+  handling of the underlying prosecution and sentencing. Verified petitions and
+  supporting certifications were filed in October 2025, with requests for record
+  supplementation and assignment of counsel pending.
+  redirect_from:
+* /cases/atl-22-002292/
+* /cases/atl-22-002313/
+  case_slug: barber-nj-pcr-2022
+
 ---
 
+## Case Overview
 
-This petition challenges the handling of the 2022 conviction, focusing on due process, public safety, and fidelity to the record. Both Atlantic County dockets are consolidated here to keep filings and follow-on review aligned.
+This matter consists of consolidated **Post-Conviction Relief (PCR)** proceedings brought by **Devon Tyler Barber** under **Rule 3:22**, challenging a 2022 conviction adjudicated in Atlantic County. The PCR petitions relate to matters commonly referenced as the *Hardemon* cases and are consolidated here to ensure a unified record and consistent judicial review.
 
-The docket below mirrors the submissions lodged with the Law Division and materials transmitted for appellate oversight.
+Petitioner alleges that the conviction and subsequent proceedings were tainted by due-process violations, failures of notice, deficiencies in the record, and ineffective assistance of counsel, resulting in an unreliable adjudication.
+
+---
+
+## Grounds Asserted
+
+The PCR petitions assert, among other grounds:
+
+* **Denial of due process**, including lack of proper notice and opportunity to be heard;
+* **Ineffective assistance of counsel**, including failure to challenge jurisdictional and procedural defects;
+* **Record integrity failures**, including missing, inaccurate, or untransmitted materials;
+* **Fundamental fairness violations** impacting the validity of the conviction and sentence.
+
+These claims are asserted pursuant to **Rule 3:22-2(a)** and related provisions.
+
+---
+
+## Procedural Posture
+
+* **2022:** Conviction entered in Atlantic County matters ATL-22-002292 and ATL-22-002313.
+* **26 Oct 2025:** Verified PCR petitions and supporting certifications filed in the Law Division, Criminal Part.
+* **October–November 2025:** Requests submitted for supplementation of the record, transmission of missing materials, and assignment of PCR counsel pursuant to Rule 3:22-6.
+* **Ongoing:** PCR petitions remain pending; no evidentiary hearing or merits determination has yet occurred.
+
+---
+
+## Relief Sought
+
+Petitioner seeks:
+
+1. Vacatur of the conviction and sentence;
+2. Alternatively, remand for an evidentiary hearing;
+3. Assignment of PCR counsel;
+4. Correction and completion of the record;
+5. Such other relief as justice and fundamental fairness require.
+
+---
+
+## Docket
 
 {% include case-analysis.html %}
+
+---
+
+## Notes
+
+* This index page consolidates multiple PCR dockets for record integrity and transparency.
+* Merits are governed by the verified PCR petitions, supplements, and any future orders of t
