@@ -1,6 +1,7 @@
----
 layout: default
 title: Faith Frontier
+body_class: ff-home
+hide_hero: true
 ---
 
 # Welcome to Faith Frontier
