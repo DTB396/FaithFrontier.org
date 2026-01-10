@@ -1,5 +1,3 @@
----
-
 ## Appendix: How to Contract and Persuade a Lawyer for Contingency Representation
 
 ### 1. Understand Contingency Fee Arrangements
