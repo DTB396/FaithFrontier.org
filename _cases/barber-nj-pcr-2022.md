@@ -14,7 +14,6 @@ dockets:
   - ATL-22-002292
   - ATL-22-002313
 primary_docket: ATL-22-002292
-filed_date: 2025-10-26
 last_updated: 2026-01-09
 judge: null
 tags:
