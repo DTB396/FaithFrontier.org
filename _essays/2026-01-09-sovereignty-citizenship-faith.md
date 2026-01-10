@@ -1,16 +1,15 @@
----
+title: "Faith, Citizenship, and the Meaning of Sovereignty"
+slug: sovereignty-citizenship-faith
+layout: essay
+visibility: public
+
+# Faith, Citizenship, and the Meaning of Sovereignty
 
 ## Upcoming: Full BWC Footage Release
 
 <div class="alert alert-info">
 <strong>Note to readers:</strong> I will be working with a media company soon to share the full body-worn camera (BWC) footage relating to this motor vehicle stop, arrest, and property seizure. These actions were taken without a signed warrant—just for traffic offenses. The footage will provide further transparency and evidence regarding the conduct and escalation described in this essay.
 </div>
----
-title: "Faith, Citizenship, and the Meaning of Sovereignty"
-slug: sovereignty-citizenship-faith
-layout: essay
-visibility: public
----
 
 # Faith, Citizenship, and the Meaning of Sovereignty
 

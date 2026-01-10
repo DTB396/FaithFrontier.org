@@ -32,9 +32,9 @@ description: "All active and historical cases. Filter by status, court, or searc
       <label for="court-select">Court
         <select id="court-select" name="court" aria-describedby="filter-desc">
           <option value="">All Courts</option>
-          {% assign courts = site.cases | map: 'court' | uniq | sort %}
+          {% assign courts = site.cases | map: 'court' | compact | uniq | sort %}
           {% for court in courts %}
-            {% if court %}<option value="{{ court }}">{{ court }}</option>{% endif %}
+            <option value="{{ court }}">{{ court }}</option>
           {% endfor %}
         </select>
       </label>
