@@ -29,6 +29,7 @@ highlighter: rouge
 permalink: /:title/  # for posts
 
 # Collections
+
 collections:
   pages:
     output: true
@@ -43,12 +44,11 @@ collections:
     output: true
     permalink: /essays/:slug/
   docs:
-  output: true
-  permalink: /docs/:path/
+    output: true
+    permalink: /docs/:path/
   trust:
-  output: true
-  permalink: /sanctuary/trust/:path/
-
+    output: true
+    permalink: /sanctuary/trust/:path/
   opra:
     output: true
     permalink: /opra/:path/

@@ -136,7 +136,7 @@ Resources Include: _includes/case-resources.html
   <section id="active-cases" style="margin-bottom: 3rem;">
     <h2 class="section-heading">Active Cases</h2>
     <div class="cases-grid" id="active-cases-grid">
-      {% assign active = site.cases | where: "status", "active" | where_exp: "case", "case.published != false" | sort: "filed_date" | reverse %}
+      {% assign active = site.cases | where: "status", "active" | where_exp: "case", "case.published != false and case.filed_date" | sort: "filed_date" | reverse %}
       {% if active.size > 0 %}
         {% for case in active %}
           {% include case-card.html case=case %}
@@ -152,7 +152,7 @@ Resources Include: _includes/case-resources.html
   </section>
   
   <!-- ==================== PENDING CASES ==================== -->
-  {% assign pending = site.cases | where: "status", "pending" | where_exp: "case", "case.published != false" | sort: "filed_date" | reverse %}
+  {% assign pending = site.cases | where: "status", "pending" | where_exp: "case", "case.published != false and case.filed_date" | sort: "filed_date" | reverse %}
   {% if pending.size > 0 %}
   <section style="margin-bottom: 3rem;">
     <h2 class="section-heading">Pending Decisions</h2>
@@ -165,7 +165,7 @@ Resources Include: _includes/case-resources.html
   {% endif %}
   
   <!-- ==================== CLOSED CASES ==================== -->
-  {% assign closed = site.cases | where: "status", "closed" | where_exp: "case", "case.published != false" | sort: "filed_date" | reverse %}
+  {% assign closed = site.cases | where: "status", "closed" | where_exp: "case", "case.published != false and case.filed_date" | sort: "filed_date" | reverse %}
   {% if closed.size > 0 %}
   <section style="margin-bottom: 3rem;">
     <h2 class="section-heading">Closed Cases</h2>
