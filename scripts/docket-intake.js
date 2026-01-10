@@ -3,6 +3,7 @@ import fs from 'fs';
 import path from 'path';
 import yaml from 'js-yaml';
 import { spawnSync } from 'node:child_process';
+import { getCourtStamp } from './extractCourtStamp.js';
 
 const INBOX = ['_inbox', 'assets/uploads'];
 // Canonical public filing home: /cases/<slug>/filings/<file>.pdf
@@ -306,6 +307,19 @@ const main = () => {
     fs.renameSync(p, destPath);
     console.log(`   ✓ File moved successfully`);
 
+    // Extract court stamp from PDF (Node.js first, fallback to Python OCR)
+    let courtStamp = null;
+    try {
+      courtStamp = getCourtStamp(destPath);
+      if (courtStamp) {
+        console.log(`   🏛️ Court stamp extracted: ${courtStamp}`);
+      } else {
+        console.log('   ⚠️ No court stamp found');
+      }
+    } catch (err) {
+      console.log('   ⚠️ Court stamp extraction error:', err);
+    }
+
     const { p: docketFile, list } = loadDocket(slug);
     const id = `${date}-${stub}`.slice(0,64);
     const fileUrl = `/${destPath.replace(/\\/g,'/')}`;
@@ -317,6 +331,7 @@ const main = () => {
         id, date,
         type, title: title || stub.replace(/-/g,' '),
         file: fileUrl,
+        court_stamp: courtStamp,
         notes: p.includes('_inbox') ? 'Intake: moved from _inbox' : 'Intake: assets/uploads'
       });
       ensureDir(DOCKET_DIR);
