@@ -8,13 +8,15 @@ permalink: /cases/atl-l-002794-25/
 court: Superior Court of New Jersey, Law Division
 venue: Atlantic County
 case_type: Civil Action (Attorney Misconduct / Contract and Tort Claims)
+forum_level: Trial Court
 role: Plaintiff
 dockets:
-  - docket: ATL-L-002794-25
-    primary_docket: ATL-L-002794-25
-    status: active
-    filed_date: 2025-10-03
-    judge: Hon. Sarah B. Johnson, J.S.C.
+  - ATL-L-002794-25
+primary_docket: ATL-L-002794-25
+status: closed
+filed_date: 2025-10-03
+last_updated: 2026-01-09
+judge: Hon. Sarah B. Johnson, J.S.C.
 tags:
   - civil
   - law-division
@@ -25,9 +27,7 @@ tags:
   - dispositive-motions
 assets_dir: /cases/atl-l-002794-25/filings/
 overview: >
-  Active Law Division civil action arising from alleged attorney misconduct and failure to
-  perform agreed legal services after acceptance of a retainer. Plaintiff asserts claims
-  sounding in contract, fiduciary duty, statutory consumer fraud, fraud, negligence, unjust
+  Active Law Division civil action arising from alleged attorney misconduct and failure to perform agreed legal services after acceptance of a retainer. Plaintiff asserts claims sounding in contract, fiduciary duty, statutory consumer fraud, fraud, negligence, unjust
   enrichment, and limited conviction-dependent malpractice. By court order, the matter was
   reassigned to Track 3 based on complexity and the presence of multiple independent claims.
   case_slug: atl-l-002794-25

@@ -10,8 +10,8 @@ This guide will help you generate AI-powered analysis for your case records usin
 ## Prerequisites
 
 ✅ OpenAI API key is configured (check Settings > Secrets > Actions > OPENAI_API_KEY)
-✅ Repository has case files in `_cases/` directory
-✅ Docket files exist in `_data/docket/` directory
+✅ Repository has case files in `_cases_index/` directory
+✅ Docket files exist in `_data/docket_index/` directory
 
 ## Current Status
 
@@ -23,8 +23,8 @@ Your case record pages show "Analysis pending" because **no analysis files have 
 
 The analysis workflow runs automatically when you:
 
-1. **Push changes to case files**: Any edit to files in `_cases/` will trigger analysis
-2. **Update docket entries**: Changes to `_data/docket/` files trigger analysis
+1. **Push changes to case files**: Any edit to files in `_cases_index/` will trigger analysis
+2. **Update docket entries**: Changes to `_data/docket_index/` files trigger analysis
 
 To manually trigger without code changes:
 - Make a trivial edit to any case file (e.g., add a space)

@@ -8,14 +8,16 @@ permalink: /cases/atl-l-002869-25/
 court: Superior Court of New Jersey, Law Division
 venue: Atlantic County
 case_type: Civil Action – Declaratory and Equitable Relief (Vehicle Ownership and Indemnity)
+forum_level: Trial Court
 role: Plaintiff
 dockets:
-  - docket: ATL-L-002869-25
-    primary_docket: ATL-L-002869-25
-    status: active
-    filed_date: 2025-10-14
-    judge: null
-  - docket: ATL-L-002908-25
+  - ATL-L-002869-25
+  - ATL-L-002908-25
+primary_docket: ATL-L-002869-25
+status: active
+filed_date: 2025-10-14
+last_updated: 2026-01-09
+judge: null
 tags:
   - civil
   - declaratory-relief
@@ -24,10 +26,7 @@ tags:
   - indemnity
 assets_dir: /cases/atl-l-002869-25/filings/
 overview: >
-  Active Law Division civil action seeking declaratory and equitable relief concerning
-  disputed vehicle ownership, title status, and indemnity obligations arising from
-  vehicle sale and registration records. Plaintiff challenges inaccurate or conflicting
-  records used for enforcement purposes and seeks judicial clarification of rights and
+  Active Law Division civil action seeking declaratory and equitable relief concerning disputed vehicle ownership, title status, and indemnity obligations arising from vehicle sale and registration records. Plaintiff challenges inaccurate or conflicting records used for enforcement purposes and seeks judicial clarification of rights and
   responsibilities. Related pleadings and track assignment activity remain pending.
   redirect_from:
 * /cases/atl-l-002908-25/

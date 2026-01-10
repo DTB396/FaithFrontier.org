@@ -8,13 +8,15 @@ permalink: /cases/usdj-1-22-cv-06206/
 court: United States District Court, District of New Jersey
 venue: District of New Jersey
 case_type: Civil Action – Federal Civil Rights (42 U.S.C. § 1983 / Constitutional Claims)
+forum_level: Federal District Court
 role: Plaintiff
 dockets:
-  - docket: 1:22-cv-06206
-    primary_docket: 1:22-cv-06206
-    status: pending
-    filed_date: 2022-10-09
-    judge: null
+  - 1:22-cv-06206
+primary_docket: 1:22-cv-06206
+status: pending
+filed_date: 2022-10-09
+last_updated: 2026-01-09
+judge: null
 tags:
   - federal
   - civil-rights
@@ -23,11 +25,7 @@ tags:
   - post-judgment-motions
 assets_dir: /cases/usdj-1-22-cv-06206/filings/
 overview: >
-  Pending federal civil rights action filed in October 2022 in the United States District
-  Court for the District of New Jersey. Plaintiff asserts constitutional claims arising from
-  alleged unlawful government conduct. The docket reflects an original complaint, an
-  amended complaint, dispositive rulings, and subsequent post-judgment motions seeking
-  relief from judgment and reopening of proceedings. Related exhibits, declarations, and
+  Pending federal civil rights action filed in October 2022 in the United States District Court for the District of New Jersey. Plaintiff asserts constitutional claims arising from alleged unlawful government conduct. The docket reflects an original complaint, an amended complaint, dispositive rulings, and subsequent post-judgment motions seeking relief from judgment and reopening of proceedings. Related exhibits, declarations, and
   service materials are maintained in the filings directory.
   case_slug: usdj-1-22-cv-06206
 

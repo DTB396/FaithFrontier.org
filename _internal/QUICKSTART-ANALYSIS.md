@@ -47,8 +47,8 @@ node scripts/analyze-cases.js
 ```
 
 The script will:
-- Process all published cases in `_cases/`
-- Read associated docket entries from `_data/docket/`
+- Process all published cases in `_cases_index/`
+- Read associated docket entries from `_data/docket_index/`
 - Generate analysis and save to `_data/analysis/<case-slug>.yml`
 - Skip cases with recent analysis (< 7 days old)
 

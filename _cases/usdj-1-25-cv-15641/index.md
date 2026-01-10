@@ -8,13 +8,15 @@ permalink: /cases/usdj-1-25-cv-15641/
 court: United States District Court, District of New Jersey
 venue: Camden Vicinage
 case_type: Civil Action – Federal Civil Rights and Equitable Relief
+forum_level: Federal District Court
 role: Plaintiff
 dockets:
-  - docket: 1:25-cv-15641-RMB-MJS
-    primary_docket: 1:25-cv-15641-RMB-MJS
-    status: active
-    filed_date: 2025-09-09
-    judge: Hon. Renée Marie Bumb, C.J.
+  - 1:25-cv-15641-RMB-MJS
+primary_docket: 1:25-cv-15641-RMB-MJS
+status: active
+filed_date: 2025-09-09
+last_updated: 2026-01-09
+judge: Hon. Renée Marie Bumb, C.J.
 tags:
   - federal
   - district-court
@@ -24,10 +26,7 @@ tags:
   - excessive-force
 assets_dir: /cases/usdj-1-25-cv-15641/filings/
 overview: >
-  Active federal civil rights action brought under 42 U.S.C. § 1983 and related
-  constitutional provisions. Plaintiff seeks damages, declaratory relief, and
-  prospective injunctive relief arising from alleged unlawful seizure, excessive
-  force, fabrication of charges, and due-process violations by municipal and
+  Active federal civil rights action brought under 42 U.S.C. § 1983 and related constitutional provisions. Plaintiff seeks damages, declaratory relief, and prospective injunctive relief arising from alleged unlawful seizure, excessive force, fabrication of charges, and due-process violations by municipal and
   county actors. Initial pleadings and motions are on file; the matter remains
   pending in the District of New Jersey.
   case_slug: usdj-1-25-cv-15641

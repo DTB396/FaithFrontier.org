@@ -1,68 +1,45 @@
-{%- comment -%}
-  Modern HTML5 Breadcrumbs Navigation
-  - Uses semantic nav with schema.org BreadcrumbList
-  - Renders as fixed slim bar below header
-  - Uses page.breadcrumb_title or page.title for the last item
-  - Hides on the homepage or if page.breadcrumb == false
-{%- endcomment -%}
-
 {%- if page.url == "/" or page.breadcrumb == false -%}
   {%- comment -%}No breadcrumbs on home or when explicitly disabled{%- endcomment -%}
 {%- else -%}
   {%- assign path = page.url | replace: 'index.html', '' -%}
   {%- assign segments = path | split: '/' -%}
-
-  <nav class="premium-breadcrumbs" aria-label="Page breadcrumbs">
-    <div class="premium-breadcrumbs__container">
-      <ol class="premium-breadcrumbs__list" itemscope itemtype="https://schema.org/BreadcrumbList">
-        {%- assign position = 1 -%}
-
-        {%- comment -%}Home link{%- endcomment -%}
-        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="premium-breadcrumbs__item">
-          <a itemprop="item" href="{{ '/' | relative_url }}" class="premium-breadcrumbs__link">
-            <svg class="premium-breadcrumbs__home-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
-              <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-              <polyline points="9 22 9 12 15 12 15 22"></polyline>
-            </svg>
-            <span>Home</span>
-          </a>
-          <meta itemprop="position" content="{{ position }}">
-        </li>
-
-        {%- assign position = position | plus: 1 -%}
-        {%- assign current_path = "" -%}
-
-        {%- for segment in segments -%}
-          {%- if segment == "" -%}
-            {%- continue -%}
-          {%- endif -%}
-
-          {%- assign current_path = current_path | append: "/" | append: segment -%}
-          {%- assign is_last = forloop.last -%}
-
+  <nav class="breadcrumbs" aria-label="Breadcrumb">
+    <ol class="breadcrumbs__list" itemscope itemtype="https://schema.org/BreadcrumbList">
+      {%- assign position = 1 -%}
+      <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumbs__item">
+        <a itemprop="item" href="{{ '/' | relative_url }}" class="breadcrumbs__link">
+          <span>Home</span>
+        </a>
+        <meta itemprop="position" content="{{ position }}">
+      </li>
+      {%- assign position = position | plus: 1 -%}
+      {%- assign current_path = "" -%}
+      {%- for segment in segments -%}
+        {%- if segment == "" -%}
+          {%- continue -%}
+        {%- endif -%}
+        {%- assign current_path = current_path | append: "/" | append: segment -%}
+        {%- assign is_last = forloop.last -%}
+        {%- if is_last -%}
+          {%- assign label = page.breadcrumb_title | default: page.title | default: segment | replace: '-', ' ' | capitalize -%}
+        {%- else -%}
+          {%- assign label = segment | replace: '-', ' ' | capitalize -%}
+        {%- endif -%}
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="breadcrumbs__item">
           {%- if is_last -%}
-            {%- assign label = page.breadcrumb_title | default: page.title | default: segment | replace: '-', ' ' | capitalize -%}
+            <span itemprop="name" class="breadcrumbs__current" aria-current="page">{{ label }}</span>
           {%- else -%}
-            {%- assign label = segment | replace: '-', ' ' | capitalize -%}
+            <a itemprop="item" href="{{ current_path | append:'/' | relative_url }}" class="breadcrumbs__link">
+              <span itemprop="name">{{ label }}</span>
+            </a>
           {%- endif -%}
-
-          <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem" class="premium-breadcrumbs__item">
-            {%- if is_last -%}
-              <span itemprop="name" class="premium-breadcrumbs__current" aria-current="page">{{ label }}</span>
-            {%- else -%}
-              <a itemprop="item" href="{{ current_path | append:'/' | relative_url }}" class="premium-breadcrumbs__link">
-                <span itemprop="name">{{ label }}</span>
-              </a>
-            {%- endif -%}
-            <meta itemprop="position" content="{{ position }}">
-            {%- if is_last == false -%}
-              <span class="premium-breadcrumbs__separator" aria-hidden="true">›</span>
-            {%- endif -%}
-          </li>
-
-          {%- assign position = position | plus: 1 -%}
-        {%- endfor -%}
-      </ol>
-    </div>
+          <meta itemprop="position" content="{{ position }}">
+          {%- if is_last == false -%}
+            <span class="breadcrumbs__separator" aria-hidden="true">›</span>
+          {%- endif -%}
+        </li>
+        {%- assign position = position | plus: 1 -%}
+      {%- endfor -%}
+    </ol>
   </nav>
 {%- endif -%}

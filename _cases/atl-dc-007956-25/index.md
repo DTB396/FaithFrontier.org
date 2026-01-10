@@ -8,13 +8,15 @@ permalink: /cases/atl-dc-007956-25/
 court: Superior Court of New Jersey, Special Civil Part
 venue: Atlantic County
 case_type: Civil Collection (Toll Enforcement)
+forum_level: Trial Court
 role: Defendant / Counterclaimant
 dockets:
-  - docket: ATL-DC-007956-25
-    primary_docket: ATL-DC-007956-25
-    status: active
-    filed_date: 2025-03-28
-    judge: null
+  - ATL-DC-007956-25
+primary_docket: ATL-DC-007956-25
+status: active
+filed_date: 2025-03-28
+last_updated: 2026-01-09
+judge: null
 tags:
   - toll-enforcement
   - discovery
@@ -22,10 +24,7 @@ tags:
   - due-process
 assets_dir: /cases/atl-dc-007956-25/filings/
 overview: >
-  Active Special Civil Part action arising from alleged unpaid toll assessments.
-  Defendant asserts counterclaims and defenses challenging process integrity,
-  notice, data accuracy, and accessibility, including the need for reasonable
-  accommodations to ensure meaningful participation.
+  Active Special Civil Part action arising from alleged unpaid toll assessments. Defendant asserts counterclaims and defenses challenging process integrity, notice, data accuracy, and accessibility, including the need for reasonable accommodations to ensure meaningful participation.
 case_slug: atl-dc-007956-25
 ---
 

@@ -8,23 +8,22 @@ permalink: /cases/atl-l-003252-25/
 court: Superior Court of New Jersey, Law Division, Civil Part
 venue: Atlantic County
 case_type: Civil Action – Verified Complaint & Order to Show Cause (Emergency Injunctive Relief)
+forum_level: Trial Court
 role: Plaintiff
 dockets:
-  - docket: ATL-L-003252-25
-    primary_docket: ATL-L-003252-25
-    status: active
-    filed_date: 2025-12-07
-    judge: null
+  - ATL-L-003252-25
+primary_docket: ATL-L-003252-25
+status: active
+filed_date: 2025-12-07
+last_updated: 2026-01-09
+judge: null
 tags:
   - civil
   - equitable-relief
   - declaratory-relief
 assets_dir: /cases/atl-l-003252-25/filings/
 overview: >
-  Active Law Division civil action seeking emergent equitable and declaratory relief under
-  R. 4:52-1 and R. 4:67-1. The action challenges the warrantless seizure and continued
-  retention of Plaintiff’s vehicle without statutory authority, judicial process, or due
-  process, and seeks immediate return of property and related equitable relief.
+  Active Law Division civil action seeking emergent equitable and declaratory relief under R. 4:52-1 and R. 4:67-1. The action challenges the warrantless seizure and continued retention of Plaintiff’s vehicle without statutory authority, judicial process, or due process, and seeks immediate return of property and related equitable relief.
 case_slug: atl-l-003252-25
 
 ---

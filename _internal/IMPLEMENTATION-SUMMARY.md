@@ -82,7 +82,7 @@ FaithFrontier/
 ## 🚀 Usage Flow
 
 1. **Setup**: Add `OPENAI_API_KEY` to GitHub secrets or `.env` file
-2. **Automatic**: Cases analyzed when files change in `_cases/` or `_data/docket/`
+2. **Automatic**: Cases analyzed when files change in `_cases_index/` or `_data/docket_index/`
 3. **Review**: PR created with generated analysis
 4. **Publish**: Merge PR → Jekyll rebuilds → Analysis appears on site
 

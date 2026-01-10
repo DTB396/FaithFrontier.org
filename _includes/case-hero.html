@@ -32,7 +32,14 @@
     {% endif %}
     {% if page.status %}
     <span class="meta-item u-badge u-badge-status u-bg-contrast u-text-accent u-radius-full u-px-md u-py-xs">
-      <strong>Status:</strong> {{ page.status }}
+      <strong>Status:</strong>
+      {% if page.status == 'closed-with-prejudice' %}
+        Closed (With Prejudice)
+      {% elsif page.status == 'closed-without-prejudice' %}
+        Closed (Without Prejudice)
+      {% else %}
+        {{ page.status | capitalize }}
+      {% endif %}
     </span>
     {% endif %}
   </div>

@@ -8,13 +8,15 @@ permalink: /cases/mer-l-002371-25/
 court: Superior Court of New Jersey, Law Division
 venue: Mercer County
 case_type: Civil Action – Declaratory, Injunctive, and Due Process Relief
+forum_level: Trial Court
 role: Plaintiff
 dockets:
-  - docket: MER-L-002371-25
-    primary_docket: MER-L-002371-25
-    status: active
-    filed_date: 2025-11-14
-    judge: null
+  - MER-L-002371-25
+primary_docket: MER-L-002371-25
+status: active
+filed_date: 2025-11-14
+last_updated: 2026-01-09
+judge: null
 tags:
   - civil
   - law-division
@@ -24,10 +26,7 @@ tags:
   - license-suspension
 assets_dir: /cases/mer-l-002371-25/filings/
 overview: >
-  Active Law Division civil action challenging New Jersey Motor Vehicle Commission
-  license-suspension and enforcement practices on procedural due-process grounds.
-  Plaintiff seeks declaratory and injunctive relief to remedy alleged failures of notice,
-  hearing access, and record integrity, and to prevent continued enforcement based on
+  Active Law Division civil action challenging New Jersey Motor Vehicle Commission license-suspension and enforcement practices on procedural due-process grounds. Plaintiff seeks declaratory and injunctive relief to remedy alleged failures of notice, hearing access, and record integrity, and to prevent continued enforcement based on
   defective administrative processes.
   case_slug: mer-l-002371-25
 

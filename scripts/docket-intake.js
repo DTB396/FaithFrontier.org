@@ -7,7 +7,8 @@ import { spawnSync } from 'node:child_process';
 const INBOX = ['_inbox', 'assets/uploads'];
 // Canonical public filing home: /cases/<slug>/filings/<file>.pdf
 const CASES_DIR = 'cases';
-const DOCKET_DIR = '_data/docket';
+const CASES_INDEX_DIR = '_cases_index';
+const DOCKET_DIR = '_data/docket_index';
 const MAP_FILE = '_data/cases-map.yml';
 
 const MIN_PDF_BYTES = 4096;
@@ -26,13 +27,11 @@ const slugifyFile = name => {
 // Find all case markdown files (handles both direct .md files and subdirectory index.md files)
 const findCaseFiles = () => {
   const files = [];
-  if (!fs.existsSync('_cases')) return files;
-  
-  const entries = fs.readdirSync('_cases');
+  if (!fs.existsSync(CASES_INDEX_DIR)) return files;
+  const entries = fs.readdirSync(CASES_INDEX_DIR);
   for (const entry of entries) {
-    const fullPath = path.join('_cases', entry);
+    const fullPath = path.join(CASES_INDEX_DIR, entry);
     const stat = fs.statSync(fullPath);
-    
     if (stat.isFile() && entry.endsWith('.md') && entry !== '_TEMPLATE.md') {
       files.push(entry);
     } else if (stat.isDirectory()) {
@@ -55,7 +54,7 @@ const bootstrapMapFromCases = () => {
   // Parse all case files and collect docket info
   const caseData = [];
   for (const f of caseFiles) {
-    const txt = fs.readFileSync(path.join('_cases', f), 'utf8');
+    const txt = fs.readFileSync(path.join(CASES_INDEX_DIR, f), 'utf8');
     const fm = (txt.match(/^---\n([\s\S]*?)\n---/)||[])[1]||'';
     
     // Extract slug from permalink or use directory name for subdirectories
@@ -122,7 +121,7 @@ const slugFromDocket = token => {
   if (casesMap[token]) return casesMap[token];
   // Try filename inference (last segment of permalink or directory name)
   for (const f of caseFiles) {
-    const txt = fs.readFileSync(path.join('_cases', f), 'utf8');
+    const txt = fs.readFileSync(path.join(CASES_INDEX_DIR, f), 'utf8');
     const fm = (txt.match(/^---\n([\s\S]*?)\n---/)||[])[1]||'';
     const m = fm.match(/dockets:\s*\[([^\]]+)\]/) || fm.match(/dockets:\s*-\s*(.+)/);
     

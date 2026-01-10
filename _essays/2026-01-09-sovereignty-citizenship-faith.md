@@ -1,7 +1,7 @@
 ---
 title: "Faith, Citizenship, and the Meaning of Sovereignty"
-slug: sovereignty-and-citizenship
-layout: page
+slug: sovereignty-citizenship-faith
+layout: essay
 visibility: public
 ---
 
@@ -11,7 +11,7 @@ visibility: public
 
 Faith Frontier exists to promote truth, accountability, stewardship, and civic responsibility. These values are sometimes mischaracterized as “sovereign citizen” ideology—a label that is inaccurate, ahistorical, and legally incorrect.
 
-This page clarifies, using **primary historical sources**, what sovereignty means in the American constitutional tradition, and what Faith Frontier does and does not stand for.
+This essay clarifies, using **primary historical sources**, what sovereignty means in the American constitutional tradition, and what Faith Frontier does and does not stand for.
 
 ---
 
@@ -170,4 +170,3 @@ It is as old as the Republic itself.
 
 - U.S. Courts: Sovereign Citizen Overview  
     https://www.uscourts.gov/news/2014/12/12/dealing-sovereign-citizens
-

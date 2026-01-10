@@ -8,14 +8,16 @@ permalink: /cases/barber-nj-pcr-2022/
 court: Superior Court of New Jersey, Law Division, Criminal Part
 venue: Atlantic County
 case_type: Post-Conviction Relief (R. 3:22)
+forum_level: Trial Court
 role: Petitioner
 dockets:
-  - docket: ATL-22-002292
-    primary_docket: ATL-22-002292
-    status: pending
-    filed_date: 2025-10-26
-    judge: null
-  - docket: ATL-22-002313
+  - ATL-22-002292
+  - ATL-22-002313
+primary_docket: ATL-22-002292
+status: pending
+filed_date: 2025-10-26
+last_updated: 2026-01-09
+judge: null
 tags:
   - post-conviction-relief
   - pcr
@@ -24,10 +26,7 @@ tags:
   - ineffective-assistance
 assets_dir: /cases/barber-nj-pcr-2022/filings/
 overview: >
-  Consolidated post-conviction relief proceedings challenging a 2022 conviction and
-  related proceedings. The petition asserts violations of due process, ineffective
-  assistance of counsel, lack of notice, and record integrity failures arising from the
-  handling of the underlying prosecution and sentencing. Verified petitions and
+  Consolidated post-conviction relief proceedings challenging a 2022 conviction and related proceedings. The petition asserts violations of due process, ineffective assistance of counsel, lack of notice, and record integrity failures arising from the handling of the underlying prosecution and sentencing. Verified petitions and
   supporting certifications were filed in October 2025, with requests for record
   supplementation and assignment of counsel pending.
   redirect_from:

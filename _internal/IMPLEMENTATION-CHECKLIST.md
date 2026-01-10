@@ -61,7 +61,7 @@ title: Implementation Checklist
 
 - [x] `_layouts/case-enhanced.html` - Professional structured case layout (8.4 KB)
 - [x] `assets/css/case-enhanced.css` - Enhanced styling with print support (11.1 KB)
-- [x] `_cases/_TEMPLATE.md` - Complete case template with docs (4.0 KB)
+- [x] `_cases_index/_TEMPLATE.md` - Complete case template with docs (4.0 KB)
 - [x] `_pages/the-story.md` - Six-chapter Faith Frontier narrative (10.4 KB)
 - [x] `CASE-ARCHIVE-GUIDE.md` - Comprehensive case system guide (12.0 KB)
 - [x] `NARRATIVE-REFACTOR-SUMMARY.md` - Complete implementation summary (15.2 KB)
@@ -224,7 +224,7 @@ title: Implementation Checklist
    - [ ] Examine `_layouts/case-enhanced.html`
    - [ ] Review `assets/css/case-enhanced.css`
    - [ ] Check example case `/cases/street-crossing-pcr-appeal/`
-   - [ ] Verify template `_cases/_TEMPLATE.md`
+   - [ ] Verify template `_cases_index/_TEMPLATE.md`
    - [ ] Confirm structured sections render correctly
 
 3. **Review Documentation**
@@ -280,7 +280,7 @@ title: Implementation Checklist
 | `NARRATIVE-REFACTOR-SUMMARY.md` | Implementation summary | 15,000 |
 | `IMPLEMENTATION-CHECKLIST.md` | This checklist | 2,000 |
 | `README.md` (updated) | Project overview | Updated |
-| `_cases/_TEMPLATE.md` | Case template | 4,000 |
+| `_cases_index/_TEMPLATE.md` | Case template | 4,000 |
 
 **Total New Documentation:** 27,000+ words
 
@@ -321,7 +321,7 @@ title: Implementation Checklist
 **Key Documents to Read:**
 1. `CASE-ARCHIVE-GUIDE.md` - How to create and update cases
 2. `NARRATIVE-REFACTOR-SUMMARY.md` - What was built and why
-3. `_cases/_TEMPLATE.md` - Template for new cases
+3. `_cases_index/_TEMPLATE.md` - Template for new cases
 4. `README.md` - Project overview
 
 **Key Skills Needed:**
@@ -332,9 +332,9 @@ title: Implementation Checklist
 - Basic HTML (for layout modifications)
 
 **Common Tasks:**
-- Creating new cases: Use `_cases/_TEMPLATE.md`
+- Creating new cases: Use `_cases_index/_TEMPLATE.md`
 - Updating case status: Edit front matter in case file
-- Adding docket entries: Update `_data/docket/`&lt;slug&gt;`.yml`
+- Adding docket entries: Update `_data/docket_index/`&lt;slug&gt;`.yml`
 - Migrating cases: Follow migration guide in `CASE-ARCHIVE-GUIDE.md`
 
 ---
