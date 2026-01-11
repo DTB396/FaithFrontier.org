@@ -9,6 +9,29 @@
 			"isBackground": false,
 			"problemMatcher": [],
 			"group": "build"
+		},
+		{
+			"label": "Build Jekyll site for validation",
+			"type": "shell",
+			"command": "bundle exec jekyll build",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Build Jekyll site for validation",
+			"type": "shell",
+			"command": "bundle exec jekyll build",
+			"args": [],
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Build Jekyll site for validation",
+			"type": "shell",
+			"command": "bundle exec jekyll build",
+			"isBackground": false,
+			"group": "build"
 		}
 	]
 }

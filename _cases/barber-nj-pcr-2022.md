@@ -15,7 +15,7 @@ dockets:
   - ATL-22-002313
 primary_docket: ATL-22-002292
 last_updated: 2026-01-09
-judge: null
+judge: "TBD"
 tags:
   - post-conviction-relief
   - pcr
@@ -25,10 +25,11 @@ tags:
 assets_dir: /cases/barber-nj-pcr-2022/filings/
 overview: >
   Consolidated post-conviction relief proceedings challenging a 2022 conviction and related proceedings. The petition asserts violations of due process, ineffective assistance of counsel, lack of notice, and record integrity failures arising from the handling of the underlying prosecution and sentencing. Verified petitions and supporting certifications were filed in October 2025, with requests for record supplementation and assignment of counsel pending.
-  redirect_from:
-* /cases/atl-22-002292/
-* /cases/atl-22-002313/
-  case_slug: barber-nj-pcr-2022
+redirect_from:
+  - /cases/atl-22-002292/
+  - /cases/atl-22-002313/
+filed_date: "2025-10-01"
+case_slug: barber-nj-pcr-2022
   ---
 
   ## Case Overview

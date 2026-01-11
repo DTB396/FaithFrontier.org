@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+  <body class="ff-home">
+    {% include header.html %}
+    <main id="main" class="ff-main" tabindex="-1">
+      <section class="ff-hero" role="banner">
+        <div class="container ff-hero__inner">
+          <p class="ff-kicker">Faith Frontier</p>
+          <h1 class="ff-title">Stewardship, neighborly-care, and lawful civic engagement.</h1>
+          <p class="ff-lede">A sanctuary for Christian stewardship and responsibly managed work—rooted in conscience, transparency, and lawful process. Explore the manifesto, essays, and case materials organized for clarity and record integrity.</p>
+          <nav class="ff-cta" aria-label="Primary">
+            <a href="/cases/" class="btn btn-primary">Cases</a>
+            <a href="/essays/" class="btn btn-secondary">Essays</a>
+            <a href="/contact/" class="btn btn-tertiary">Contact</a>
+          </nav>
+          <ul class="ff-quicklinks" aria-label="Key documents">
+            <li><a href="/faith-frontier-mission-addendum/">Mission Statement</a></li>
+            <li aria-hidden="true">·</li>
+            <li><a href="/faith-frontier-brand-creed/">Brand Creed</a></li>
+          </ul>
+        </div>
+      </section>
+      {{ content }}
+    </main>
+    {% include footer.html %}
+    {% include scripts.html %}
+    {% include spotify-player.html %}
+  </body>
+</html>

@@ -1,9 +1,18 @@
+
 ---
 title: "Faith, Citizenship, and the Meaning of Sovereignty"
 slug: sovereignty-citizenship-faith
 layout: essay
 visibility: public
 ---
+
+# Faith, Citizenship, and the Meaning of Sovereignty
+
+## Upcoming: Full BWC Footage Release
+
+<div class="alert alert-info">
+<strong>Note to readers:</strong> I will be working with a media company soon to share the full body-worn camera (BWC) footage relating to this motor vehicle stop, arrest, and property seizure. These actions were taken without a signed warrant—just for traffic offenses. The footage will provide further transparency and evidence regarding the conduct and escalation described in this essay.
+</div>
 
 # Faith, Citizenship, and the Meaning of Sovereignty
 
@@ -73,10 +82,25 @@ This case is foundational constitutional law—not ideology.
 - Courts have jurisdiction
 - Citizens are accountable to lawful process
 
+
 **So-called “sovereign citizen” ideology claims:**
 - Individuals are exempt from law
 - Courts lack jurisdiction
 - Legal obligations can be unilaterally rejected
+
+---
+
+## Evidence: Officer Ruiz's CAD Report and Escalation
+
+<video controls width="640" poster="/assets/img/video-poster.jpg">
+    <source src="/assets/mp4/Recording%202026-01-10%20023719%20(1).mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+**Context:**
+This video shows Officer Ruiz's CAD investigation report for a traffic stop that was, by law, a civil matter. Despite this, the officer and department used language that inflated and escalated the situation, treating the author as a criminal even though the underlying issue was not criminal and the author had already served time for a prior 'disorderly' charge. This demonstrates how law enforcement language and framing can escalate tensions and misrepresent the true nature of a civil encounter, reinforcing the need for accountability and accurate public records.
+
+---
 
 Faith Frontier **explicitly rejects** the latter.  
 These theories have been uniformly rejected by U.S. courts.

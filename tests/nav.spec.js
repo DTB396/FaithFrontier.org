@@ -4,7 +4,11 @@ const NAV_SELECTOR = "#premium-nav-mobile";
 
 test.describe("mobile navigation drawer", () => {
   test("opens via toggle and closes via backdrop", async ({ page }) => {
+    await page.setViewportSize({ width: 375, height: 667 });
     await page.goto("/");
+
+    // Wait for nav toggle to be attached before asserting visibility
+    await page.waitForSelector('.premium-nav-toggle', { state: 'attached', timeout: 7000 });
 
     const nav = page.locator(NAV_SELECTOR);
     const toggle = page.locator(".premium-nav-toggle");
