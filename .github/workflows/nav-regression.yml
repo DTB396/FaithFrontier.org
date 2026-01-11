@@ -30,7 +30,7 @@ jobs:
         run: gem install webrick
 
       - name: Install Playwright browsers
-        run: npx playwright install --with-deps chromium
+        run: npx playwright install --with-deps
 
       - name: Run markdown CSS guard
         run: npm run lint:content

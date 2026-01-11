@@ -1,3 +1,9 @@
+
+---
+title: "CASE MER-L-002371-25 Index"
+date: 2026-01-10
+---
+
 ## Appendix: How to Contract and Persuade a Lawyer for Contingency Representation
 
 ### 1. Understand Contingency Fee Arrangements

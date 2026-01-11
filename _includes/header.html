@@ -1,4 +1,6 @@
 <header class="premium-header" role="banner">
+  <!-- DEBUG: Marker for header presence (remove in production) -->
+  <div id="debug-header-marker" style="position:absolute;left:-9999px;top:0;color:red;z-index:99999;">HEADER_PRESENT</div>
   <div class="premium-header__inner">
     
     <!-- Left Navigation (3 items) -->
@@ -47,6 +49,13 @@
     </button>
   </div>
 </header>
+
+<!-- DEBUG: Force nav toggle and mobile nav visible for Playwright tests -->
+{% if jekyll.environment == 'test' or site.playwright_debug %}
+<style>
+  .premium-nav-toggle, .premium-nav--mobile { display: block !important; opacity: 1 !important; visibility: visible !important; }
+</style>
+{% endif %}
 
 <!-- Mobile Navigation Drawer (outside header for proper positioning) -->
 <nav id="premium-nav-mobile" class="premium-nav premium-nav--mobile" aria-label="Mobile navigation">

@@ -2,10 +2,18 @@ import { expect, test } from "@playwright/test";
 
 test.describe("Mobile Navigation Visual Tests", () => {
   test("mobile navigation menu displays correctly when opened", async ({ page }) => {
-    // Set mobile viewport
+    // Set viewport before navigation (for mobile)
     await page.setViewportSize({ width: 375, height: 667 });
-    
     await page.goto("/");
+
+    // Wait for nav toggle to be attached before asserting visibility
+    await page.waitForSelector('.premium-nav-toggle', { state: 'attached', timeout: 7000 });
+
+    // DEBUG: Output page HTML for diagnosis
+    const html = await page.content();
+    console.log('PAGE_HTML_START');
+    console.log(html);
+    console.log('PAGE_HTML_END');
 
     // Wait for page to fully load
     await page.waitForLoadState('networkidle');
@@ -70,6 +78,18 @@ test.describe("Mobile Navigation Visual Tests", () => {
 
     // Screenshot after closing
     await page.screenshot({ path: 'test-results/nav-closed-after.png', fullPage: false });
+
+    // Check for main.css presence
+    const hasMainCss = await page.evaluate(() => {
+      return Array.from(document.querySelectorAll('link[rel="stylesheet"]')).some(link => link.href.includes('main.css'));
+    });
+    console.log('main.css present:', hasMainCss);
+
+    // Check for premium-header.js presence
+    const hasPremiumHeaderJs = await page.evaluate(() => {
+      return Array.from(document.scripts).some(script => script.src && script.src.includes('premium-header.js'));
+    });
+    console.log('premium-header.js present:', hasPremiumHeaderJs);
   });
 
   test("desktop navigation displays correctly", async ({ page }) => {

@@ -1,7 +1,10 @@
+
+---
 title: "Faith, Citizenship, and the Meaning of Sovereignty"
 slug: sovereignty-citizenship-faith
 layout: essay
 visibility: public
+---
 
 # Faith, Citizenship, and the Meaning of Sovereignty
 

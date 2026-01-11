@@ -34,7 +34,7 @@ description: "All active and historical cases. Filter by status, court, or searc
           <option value="">All Courts</option>
           {% assign courts = site.cases | map: 'court' | compact | uniq | sort %}
           {% for court in courts %}
-            <option value="{{ court }}">{{ court }}</option>
+            {% if court %}<option value="{{ court }}">{{ court }}</option>{% endif %}
           {% endfor %}
         </select>
       </label>
@@ -47,8 +47,10 @@ description: "All active and historical cases. Filter by status, court, or searc
     <h2 id="active-cases-heading">Active Cases</h2>
     <div class="case-list" role="list" aria-labelledby="active-cases-heading">
       {% assign active_cases = site.cases | where: 'status', 'active' %}
-      {% if active_cases.size > 0 %}
-        {% for case in active_cases %}
+      {% assign active_cases_with_title = active_cases | where_exp: 'item', 'item.title' %}
+      {% assign sorted_active_cases = active_cases_with_title | sort: 'title' %}
+      {% if sorted_active_cases.size > 0 %}
+        {% for case in sorted_active_cases %}
           <article class="case-card animate-fadein" role="listitem" tabindex="0" aria-labelledby="case-title-{{ forloop.index }}" itemscope itemtype="https://schema.org/LegalCase">
             <h3 id="case-title-{{ forloop.index }}" itemprop="name"><a href="{{ case.url }}" itemprop="url">{{ case.title }}</a></h3>
             <p><strong itemprop="alternateName">{{ case.short_title }}</strong> · Docket <span itemprop="docketNumber">{{ case.primary_docket }}</span></p>
