@@ -17,7 +17,7 @@ page_css:
 
 page_js:
   - /assets/js/holistic-interactive-map.js
----
+  - /assets/js/symptom-plant-tool.js
 
 <section class="section-block">
   <div class="container">
