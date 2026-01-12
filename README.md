@@ -100,7 +100,6 @@ scripts/                   # Automation and intake utilities
   docket-intake.js         # PDF intake and normalization
   analyze-cases.js         # AI-assisted case analysis
 worker/                    # Optional Cloudflare Worker for uploads
-```
 
 Navigation cues:
 
@@ -131,6 +130,49 @@ JEKYLL_ENV=production bundle exec jekyll build
 - GitHub Pages deploys from the `main` branch.
 - Domain: **faithfrontier.org** (CNAME -> `xtx33.github.io`).
 - Ensure DNS A-records follow GitHub's guidance if apex hosting is required.
+
+---
+
+## 🚀 Quick Start: Foolproof Build & Deploy
+
+### 1. Install Everything (First Time Only)
+
+```bash
+npm install
+bundle install
+```
+
+### 2. Build & Preview Locally
+
+```bash
+npm run build
+bundle exec jekyll serve
+# Visit http://localhost:4000
+```
+
+### 3. Deploy (Push to GitHub)
+
+```bash
+git add .
+git commit -m "your message"
+git push
+```
+
+---
+
+### 🛠️ Troubleshooting
+- If you see a Ruby or Jekyll error, run `bundle install` again.
+- If you see a Node or npm error, run `npm install` again.
+- If you get a Liquid error, check for missing or broken YAML in your Markdown files.
+- For a clean rebuild, delete the `_site/` folder and run `npm run build` again.
+
+---
+
+### 💡 Pro Tips
+- Use `npm run verify:fast` for a quick health check.
+- Use `npm run verify` for a full, automated site check (takes longer).
+- All build scripts are in `package.json` under `scripts`.
+- You do NOT need to run every script—just use the steps above!
 
 ---
 
@@ -386,14 +428,3 @@ So we:
 1. Encode your intentions as **living instruction files**
 2. Trigger Copilot through **commands + comments**
 3. Let **GitHub Actions** handle the “background” automation
-
----
-
-## 🧠 STEP 1 — Create a Persistent Agent Instruction File
-
-Create this file in the FaithFrontier repo:
-
-```bash
-mkdir -p .github/copilot
-code .github/copilot/AGENT_INSTRUCTIONS.md
-```

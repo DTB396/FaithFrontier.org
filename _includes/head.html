@@ -33,11 +33,12 @@
 <meta property="og:description" content="{{ page.description | default: site.description | default: 'Faith-informed transparency for New Jersey. Public records, civic literacy, and property stewardship with humility and accountability.' }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
 <meta property="og:locale" content="en_US">
+
 {% if page.image %}
   <meta property="og:image" content="{{ page.image | absolute_url }}">
   <meta property="og:image:alt" content="{{ page.title | default: 'Faith Frontier Ecclesiastical Trust' }}">
 {% else %}
-  <meta property="og:image" content="{{ '/assets/img/og-image.png' | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/img/og/og-faithfrontier-default.png' | absolute_url }}">
   <meta property="og:image:alt" content="Faith Frontier Ecclesiastical Trust">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -50,7 +51,7 @@
 {% if page.image %}
   <meta name="twitter:image" content="{{ page.image | absolute_url }}">
 {% else %}
-  <meta name="twitter:image" content="{{ '/assets/img/og-image.png' | absolute_url }}">
+  <meta name="twitter:image" content="{{ '/assets/img/og/og-faithfrontier-default.png' | absolute_url }}">
 {% endif %}
 <meta name="twitter:image:alt" content="{{ page.title | default: 'Faith Frontier Ecclesiastical Trust' }}">
 

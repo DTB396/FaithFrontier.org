@@ -1,4 +1,3 @@
----
 layout: case
 status: pending
 title: Barber PCR (2022) – State v. Barber (Hardemon matters)
@@ -18,6 +17,7 @@ last_updated: 2026-01-09
 judge: null
 tags:
   - post-conviction-relief
+image: "/assets/img/og/og-faithfrontier-default.png"
   - pcr
   - criminal
   - due-process
