@@ -8,10 +8,10 @@ timezone: America/New_York
 author: Devon Tyler Barber
 
 # Brand assets
-logo_main: "/assets/img/logo/logo-faithfrontier-header.svg"
-logo_main_dark: "/assets/img/logo/logo-faithfrontier-header.svg"
-logo_main_light: "/assets/img/logo/logo-faithfrontier-header.svg"
-logo: "/assets/img/logo/logo-faithfrontier-header.svg"
+logo_main: "/assets/img/logo-faithfrontier-header-fixed.svg"
+logo_main_dark: "/assets/img/logo-faithfrontier-header-fixed.svg"
+logo_main_light: "/assets/img/logo-faithfrontier-header-fixed.svg"
+logo: "/assets/img/logo-faithfrontier-header-fixed.svg"
 logo_mark: "/assets/img/faithfrontier-mark.svg"
 brand_png: true
 logo_png_full_4000: "/assets/img/logo.png"

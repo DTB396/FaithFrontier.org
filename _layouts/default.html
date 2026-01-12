@@ -18,9 +18,14 @@
       Page hero (title/eyebrow/subtitle).  
       Hide with `hide_hero: true` in front matter.
     {%- endcomment -%}
-    {% unless page.hide_hero %}
+    {%- comment -%}
+      Use premium-hero.html for homepage, page-hero.html for all other pages
+    {%- endcomment -%}
+    {% if page.url == '/' or page.permalink == '/' or page.layout == 'home' or page.homepage_hero %}
+      {% include premium-hero.html %}
+    {% elsif page.hide_hero != true %}
       {% include page-hero.html %}
-    {% endunless %}
+    {% endif %}
 
     {%- comment -%}
       Breadcrumbs.  
@@ -28,6 +33,17 @@
     {%- endcomment -%}
     {% if page.show_breadcrumbs != false %}
       {% include breadcrumbs.html %}
+    {% endif %}
+
+
+    {%- comment -%} Minimal maintenance banner (subtle, only if enabled) {%- endcomment -%}
+    {% if site.maintenance or page.maintenance_banner %}
+      <section class="maintenance-banner u-bg-warning-faint u-text-muted u-py-xs u-mb-md u-radius-md u-shadow-xs" aria-label="Site maintenance notice">
+        <div class="maintenance-banner__inner u-flex u-align-center u-gap-xs">
+          <span class="maintenance-banner__icon u-mr-xs" aria-hidden="true">⚠️</span>
+          <span class="maintenance-banner__text u-text-xs">Some features or records may be temporarily unavailable while we update FaithFrontier.org.</span>
+        </div>
+      </section>
     {% endif %}
 
     <main id="main" class="site-main u-max-w-5xl u-mx-auto u-pb-2xl" aria-label="Main content">

@@ -1,16 +1,27 @@
 
----
 layout: default
 title: Faith Frontier
+
 body_class: ff-home
+homepage_hero: true
 ---
 
-# Welcome to Faith Frontier
+{% comment %}
+	Faith Frontier Homepage: Modern, content-rich, and visually unified
+	- Hero, principles, and FAQ: _includes/homepage-faq.html
+	- Featured Essays: _includes/featured-essays.html
+	- All content styled for clarity and engagement
+{% endcomment %}
 
-Faith Frontier is a sanctuary for Christian stewardship, neighbor-care, and lawful enterprise. Explore our cases, essays, and resources for faith-based civic engagement and legal advocacy.
+{% include homepage-faq.html %}
 
-- [Cases](/cases/)
-- [Essays](/essays/)
-- [Contact](/contact/)
+{% include featured-essays.html %}
 
-For more information, see our [mission statement](/faith-frontier-mission-addendum/) and [brand creed](/faith-frontier-brand-creed/).
+<div class="ff-home__footer-links">
+	<p>
+		For more information, see our
+		<a href="/faith-frontier-mission-addendum/">mission statement</a>
+		and
+		<a href="/faith-frontier-brand-creed/">brand creed</a>.
+	</p>
+</div>
