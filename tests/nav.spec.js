@@ -9,6 +9,7 @@ test.describe("mobile navigation drawer", () => {
     const nav = page.locator(NAV_SELECTOR);
     const toggle = page.locator(".premium-nav-toggle");
 
+    await page.waitForSelector('.premium-nav-toggle');
     await expect(toggle).toBeVisible();
     await expect(nav).not.toHaveClass(/is-open/);
 
