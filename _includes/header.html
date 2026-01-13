@@ -10,19 +10,13 @@
       </ul>
     </nav>
 
-    <!-- Center-aligned brand -->
+    <!-- Center-aligned brand (unified with footer) -->
     <a class="premium-brand js-site-logo" href="{{ '/' | relative_url }}" aria-label="Faith Frontier Ecclesiastical Trust home">
-      <div class="premium-brand__logo">
-          <img src="/assets/img/logo-faithfrontier-header-fixed.svg" 
-             alt="" 
-             width="48" 
-             height="48" 
-             class="premium-brand__mark" 
-             aria-hidden="true" />
-        <span class="premium-brand__wordmark">
-          <img src="/assets/img/logo-faithfrontier-mark.svg" alt="Faith Frontier" style="height:1.5em;vertical-align:middle;" />
-        </span>
-      </div>
+      <img src="{{ site.logo_mark | default: '/assets/img/faithfrontier-mark.svg' | relative_url }}"
+           alt="Faith Frontier Ecclesiastical Trust"
+           class="footer-logo premium-brand__mark"
+           itemprop="logo">
+      <span class="footer-name premium-brand__wordmark" itemprop="name">Faith Frontier</span>
     </a>
 
     <!-- Right Navigation (4 items + CTA) -->

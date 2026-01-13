@@ -24,7 +24,7 @@ Resources Include: _includes/case-resources.html
 
 <!-- ==================== HERO SECTION ==================== -->
 <div class="cases-hero">
-  <div class="container" style="max-width: 1100px; margin: 0 auto;">
+  <div class="container">
     <h1>Case Records & Legal Archive</h1>
     <p class="cases-hero-lead">
       Every filing. Every order. Every motion. Faith Frontier's complete legal record demonstrates <strong>procedural competence</strong>, 

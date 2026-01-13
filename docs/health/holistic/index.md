@@ -11,7 +11,7 @@ show_breadcrumbs: true
 <section class="section-block">
   <div class="container">
     <p class="section-eyebrow">Stewardship • Food-first • Accountability</p>
-    <h1 class="section-heading">Holistic Independence Guide</h1>
+    <h1>Holistic Independence Guide</h1>
     <p class="section-lead">
       Filter plants by USDA growing zone and common health goals. This is educational and collaborative, not medical advice.
     </p>

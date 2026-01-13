@@ -7,9 +7,9 @@ description: "Reflections on faith, covenant, sovereignty, and the tension betwe
 ---
 
 <section aria-labelledby="essays-heading" class="essays-index shell">
-  <header class="page-header" style="max-width: 60rem; margin: 0 auto 2rem;">
+  <header class="page-header">
     <h1 id="essays-heading">Essays & Reflections</h1>
-    <p style="font-size: 1.1rem; line-height: 1.7; color: var(--color-muted);">
+    <p class="essays-lead">
       Reflections on faith, covenant, sovereignty, and the tension between personal identity and 
       global systems. These essays weave memoir with spiritual and civic manifesto — honest, 
       reflective, grounded, and searching.

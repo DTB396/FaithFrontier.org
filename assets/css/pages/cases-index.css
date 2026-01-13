@@ -34,11 +34,30 @@
   border-radius: 12px;
 }
 
+
 .cases-hero h1 {
-  font-size: clamp(2rem, 5vw, 3rem);
+  font-size: clamp(2.2rem, 6vw, 3.2rem);
   margin-bottom: 1rem;
   color: var(--text-on-dark);
   font-weight: var(--fw-black);
+  letter-spacing: -0.01em;
+  line-height: 1.08;
+}
+
+.case-list h2, .cases-index h2 {
+  font-size: clamp(1.3rem, 3vw, 2rem);
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+  color: var(--emerald-600, #059669);
+  letter-spacing: -0.01em;
+}
+
+.case-card h3 {
+  font-size: clamp(1.1rem, 2.5vw, 1.35rem);
+  font-weight: 600;
+  margin: 0 0 0.4rem 0;
+  color: var(--brass-500, #e2c275);
+  line-height: 1.18;
 }
 
 .cases-hero-lead {

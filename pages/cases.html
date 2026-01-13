@@ -7,9 +7,18 @@ description: "All active and historical cases. Filter by status, court, or searc
 
 
 
+<link rel="stylesheet" href="{{ '/assets/css/pages/cases-index.css' | relative_url }}">
+
 <main class="cases-archive" aria-labelledby="cases-archive-title" itemscope itemtype="https://schema.org/CollectionPage">
-  <section class="cases-hero" role="region" aria-label="Case Archive Overview">
-    <h1 id="cases-archive-title" itemprop="name">Case Archive</h1>
+  {% assign featured_case = site.cases | where: "featured", true | first %}
+  <section class="cases-hero" role="region" aria-label="Featured Case">
+    {% if featured_case %}
+      <h1 id="cases-archive-title" itemprop="name">{{ featured_case.title }}</h1>
+      <p class="cases-hero-lead">{{ featured_case.summary }}</p>
+      <a href="{{ featured_case.url }}" class="btn btn-primary">View Case</a>
+    {% else %}
+      <h1 id="cases-archive-title" itemprop="name">Case Archive</h1>
+    {% endif %}
     <ul class="cases-stats" role="list">
       <li><span aria-label="Total Cases">{{ site.cases | size }}</span><br><span class="cases-stats-label">Total Cases</span></li>
       <li><span aria-label="Active Litigation">{{ site.cases | where: 'status', 'active' | size }}</span><br><span class="cases-stats-label">Active Litigation</span></li>
@@ -46,25 +55,21 @@ description: "All active and historical cases. Filter by status, court, or searc
 
     <h2 id="active-cases-heading">Active Cases</h2>
     <div class="case-list" role="list" aria-labelledby="active-cases-heading">
-      {% assign filter_status = page.status | default: site.params.status | default: '' %}
-      {% if filter_status == '' %}
-        {% assign filtered_cases = site.cases %}
-      {% else %}
-        {% assign filtered_cases = site.cases | where: 'status', filter_status %}
-      {% endif %}
-        {% assign sorted_filtered_cases = filtered_cases | sort: 'title' %}
+      {% assign active_cases = site.cases | where: "status", "active" %}
       {% assign has_valid_case = false %}
-      {% for case in sorted_filtered_cases %}
-        {% if case.title and case.title != '' %}
-          {% assign has_valid_case = true %}
-          <article class="case-card animate-fadein" role="listitem" tabindex="0" aria-labelledby="case-title-{{ forloop.index }}" itemscope itemtype="https://schema.org/LegalCase">
-            <h3 id="case-title-{{ forloop.index }}" itemprop="name"><a href="{{ case.url }}" itemprop="url">{{ case.title }}</a></h3>
-            <p><strong itemprop="alternateName">{{ case.short_title }}</strong> · Docket <span itemprop="docketNumber">{{ case.primary_docket }}</span></p>
-            <p>Status: <span itemprop="caseStatus">{{ case.status | capitalize }}</span></p>
-            <p>Court: <span itemprop="court">{{ case.court }}</span></p>
-            {% if case.tags %}<p class="case-tags">Tags: {% for tag in case.tags %}<span class="case-tag" itemprop="keywords">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>{% endif %}
-          </article>
-        {% endif %}
+      {% for case in active_cases %}
+        {% unless case.featured %}
+          {% if case.title and case.title != '' %}
+            {% assign has_valid_case = true %}
+            <article class="case-card animate-fadein" role="listitem" tabindex="0" aria-labelledby="case-title-{{ forloop.index }}" itemscope itemtype="https://schema.org/LegalCase">
+              <h3 id="case-title-{{ forloop.index }}" itemprop="name"><a href="{{ case.url }}" itemprop="url">{{ case.title }}</a></h3>
+              <p><strong itemprop="alternateName">{{ case.short_title }}</strong> · Docket <span itemprop="docketNumber">{{ case.primary_docket }}</span></p>
+              <p>Status: <span itemprop="caseStatus">{{ case.status | capitalize }}</span></p>
+              <p>Court: <span itemprop="court">{{ case.court }}</span></p>
+              {% if case.tags %}<p class="case-tags">Tags: {% for tag in case.tags %}<span class="case-tag" itemprop="keywords">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}{% endfor %}</p>{% endif %}
+            </article>
+          {% endif %}
+        {% endunless %}
       {% endfor %}
       {% unless has_valid_case %}
         <div class="empty-state" role="status" aria-live="polite">
