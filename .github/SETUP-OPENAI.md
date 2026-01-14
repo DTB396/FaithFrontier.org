@@ -1,6 +1,6 @@
 # OpenAI API Key Setup Checklist
 
-This guide helps you configure the OpenAI API key for automated case analysis.
+This guide helps you configure the OpenAI API key for automated analysis.
 
 ## Prerequisites
 
@@ -35,7 +35,7 @@ The workflow will automatically validate that the secret is set before running. 
 To manually test:
 
 1. Go to **Actions** tab in your repository
-2. Select **"Case Analysis with OpenAI"** workflow
+2. Select the OpenAI workflow
 3. Click **"Run workflow"**
 4. Monitor the workflow run for any errors
 
@@ -60,7 +60,7 @@ For local testing:
 
 4. Run the analysis script:
    ```bash
-   node scripts/analyze-cases.js
+   # ...existing code...
    ```
 
 ## Troubleshooting
@@ -73,7 +73,7 @@ OPENAI_API_KEY secret is not set
 ```
 
 **Solution:** Make sure you:
-- Named the secret exactly `OPENAI_API_KEY` (case-sensitive)
+// ...existing code...
 - Added it as a repository secret (not an organization or environment secret)
 - Have the necessary permissions to add secrets
 
@@ -87,8 +87,7 @@ If you see OpenAI authentication errors:
 ### Workflow Not Triggering
 
 The workflow runs automatically when:
-- Files in `_cases/` are modified
-- Files in `_data/docket/` are modified
+// ...existing code...
 - You manually trigger it from the Actions tab
 
 ## Security Best Practices
@@ -102,9 +101,7 @@ The workflow runs automatically when:
 ## Cost Considerations
 
 Using `gpt-4o-mini` (default):
-- Typical cost: ~$0.002-0.004 per case analysis
-- For 10 cases: ~$0.02-0.04
-- For 100 cases: ~$0.20-0.40
+// ...existing code...
 
 Monitor your usage at: https://platform.openai.com/usage
 

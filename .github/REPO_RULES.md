@@ -185,7 +185,7 @@ These rules serve the higher purpose:
 
 - **Protect the live experience** (stone = production dignity)
 - **Enable rapid experimentation** (sandbox = innovation freedom)
-- **Maintain legal/compliance integrity** (case documents, OPRA records)
+// ...existing code...
 - **Honor stewardship principles** (code quality reflects organizational values)
 
 ---

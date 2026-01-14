@@ -1,14 +1,13 @@
-name: Case Analysis with OpenAI
+name: (REMOVED)
 
 on:
   push:
     paths:
-      - "_cases/**"
-      - "_data/docket/**"
+      # ...existing code...
   workflow_dispatch:
     inputs:
       force_reanalysis:
-        description: 'Force re-analysis of all cases (ignore age check)'
+        # ...existing code...
         required: false
         default: 'false'
         type: boolean
@@ -45,26 +44,7 @@ jobs:
             echo "has_key=true" >> $GITHUB_OUTPUT
           fi
         
-      - name: Run case analysis
-        if: steps.check-key.outputs.has_key == 'true'
-        id: analysis
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-        run: |
-          echo "::group::Case Analysis Output"
-          node scripts/analyze-cases.js
-          ANALYSIS_STATUS=$?
-          echo "::endgroup::"
-          
-          if [ $ANALYSIS_STATUS -eq 0 ]; then
-            echo "analysis_success=true" >> $GITHUB_OUTPUT
-          else
-            echo "::warning::Analysis completed with warnings or errors"
-            echo "analysis_success=false" >> $GITHUB_OUTPUT
-          fi
-          
-          exit $ANALYSIS_STATUS
-        continue-on-error: true
+      # ...existing code...
         
       - name: Check for changes
         if: steps.check-key.outputs.has_key == 'true'
@@ -79,48 +59,7 @@ jobs:
             echo "has_changes=true" >> $GITHUB_OUTPUT
           fi
         
-      - name: Create Pull Request
-        if: steps.check-key.outputs.has_key == 'true' && steps.check-changes.outputs.has_changes == 'true'
-        uses: peter-evans/create-pull-request@v6
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          commit-message: "feat(analysis): AI-generated case analysis"
-          title: "AI Analysis: Case Records and Dockets"
-          body: |
-            ## Automated Case Analysis
-            
-            This PR contains AI-generated analysis of case records and dockets.
-            
-            ### Analysis Types:
-            - **Judicial Oversight**: Legal analysis focusing on due process, constitutional issues, and procedural propriety
-            - **Journalistic Commentary**: Public interest perspective on individual rights, government accountability, and access to justice
-            
-            ### Files Changed:
-            - Analysis files in `_data/analysis/`
-            
-            ### Analysis Status:
-            - ✅ Successfully completed
-            - 📊 Generated: ${{ github.event.head_commit.timestamp }}
-            - 🔗 Triggered by: ${{ github.event.head_commit.message }}
-            
-            **Note**: Please review the analysis for accuracy and appropriateness before merging.
-            
-            ---
-            
-            <details>
-            <summary>About AI Analysis</summary>
-            
-            This analysis is generated using OpenAI GPT-4 with carefully crafted prompts that focus on:
-            - Due process and constitutional compliance
-            - Individual rights and government accountability
-            - Public interest and transparency
-            - Factual, neutral presentation
-            
-            The analysis is meant to assist human review, not replace it. Always verify claims and assess appropriateness before publication.
-            </details>
-          branch: "ai-analysis/case-updates"
-          delete-branch: true
-          labels: "automated, analysis, ai-generated"
+      # ...existing code...
           
       - name: Summary
         if: always()

@@ -9,7 +9,7 @@ Gemfile.lock
 vendor/
 _site/
 
-# Docket intake staging
+// ...existing code...
 _inbox/*.pdf
 _inbox/*/*.pdf
 reports/
