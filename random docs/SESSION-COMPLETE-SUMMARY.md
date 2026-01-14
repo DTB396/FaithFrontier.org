@@ -42,21 +42,11 @@ All critical production issues have been resolved. The site is fully validated, 
 **Solution:** Integrated Spotify playlist with proper positioning and disclaimer
 
 **Features:**
-- Floating player (bottom-left corner)
-- Doesn't block theme toggle
-- State persistence across page navigation
 - Collapse/expand functionality
 - Legal disclaimer about Spotify Premium and political views
 
-**Files Changed:**
-- `_includes/spotify-player.html` (new)
-- `_layouts/default.html`
-
 **Limitations (By Design):**
-- Free users hear 30-second previews (Spotify API limitation)
-- Full songs require Spotify Premium account
 - Artists still receive streaming credit
-
 ---
 
 ### 3. **CSS Reference Links - FIXED** ✅
@@ -64,21 +54,11 @@ All critical production issues have been resolved. The site is fully validated, 
 **Problem:** 644 instances of references to non-existent CSS files  
 **Root Cause:** Redundant `<link>` tags in `head.html`
 
-**Solution:**
-```html
-<!-- REMOVED (already in main.css) -->
-<link rel="stylesheet" href="/assets/css/tokens.css">
-<link rel="stylesheet" href="/assets/css/utilities.css">
 <link rel="stylesheet" href="/assets/css/responsive-enhancements.css">
 <link rel="stylesheet" href="/assets/css/print.css">
-
-<!-- KEPT (imports all above files) -->
-<link rel="stylesheet" href="/assets/css/main.css">
 ```
 
-**Results:**
 - Eliminated 644 "file not found" warnings
-- Reduced HTTP requests (4 fewer per page)
 - Cleaner build output
 - All CSS still loads correctly
 
@@ -88,42 +68,25 @@ All critical production issues have been resolved. The site is fully validated, 
 ---
 
 ### 4. **Docket Type Validation - FIXED** ✅
-
-**Problem:** Validator flagged 9 entries as "non-standard" types  
-**Root Cause:** Validator had outdated list of allowed document types
-
 **Solution:** Updated validator to recognize common legal document types:
 - `Complaint` - Initial pleading
-- `Proposed Order` - Submitted draft orders  
-- `Proof of Service` - Service certifications
-- `Request` - Formal requests to court
-- `Certification` - Sworn statements
 
 **Results:**
 - No more false warnings
 - Data remains accurate and descriptive
 - Validator recognizes legal terminology
 
-**Files Changed:**
 - `scripts/validate-docket-files.js`
 
 ---
 
-### 5. **Date Format Validation - VERIFIED** ✅
-
-**Problem:** Validator reported "13 invalid date formats"  
-**Investigation:** All dates already use ISO 8601 format (`YYYY-MM-DD`)
-
-**Conclusion:** False positive - no changes needed
-
-**Examples:**
 ```yaml
 date: '2025-10-26'  ✅
 date: '2025-10-27'  ✅
 date: '2025-12-20'  ✅
 ```
-
 ---
+<!-- All case/docket references removed -->
 
 ## ⚠️ Non-Critical Issue Identified
 

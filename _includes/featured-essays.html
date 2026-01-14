@@ -1,0 +1,9 @@
+<!-- Featured Essays Include -->
+<section class="featured-essays">
+  <h2>Featured Essays</h2>
+  <ul>
+    {% for essay in site.essays limit:5 %}
+      <li><a href="{{ essay.url }}">{{ essay.title }}</a></li>
+    {% endfor %}
+  </ul>
+</section>

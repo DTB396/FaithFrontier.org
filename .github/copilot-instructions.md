@@ -215,7 +215,7 @@ The built site will be in the `_site/` directory.
 ## Additional Resources
 
 - **README.md** - Project overview and quick start
-- **DOCKET-SYSTEM.md** - Complete docket management documentation
+<!-- Docket-system documentation reference removed -->
 - **_docs/ANALYSIS-SYSTEM.md** - Complete AI analysis system documentation
 - **_docs/QUICKSTART-ANALYSIS.md** - Quick reference for analysis features
 - **_docs/IMPLEMENTATION-SUMMARY.md** - Technical implementation details

@@ -9,7 +9,7 @@ The following are trademarks and protected marks of the Faith Frontier Ecclesias
 
 - "FaithFrontier" and "Faith Frontier"
 - Logos, seals, crests, typography, and visual theology elements
-- Unique case-indexing frameworks, narrative layouts, and branded structures
+<!-- Case-indexing frameworks reference removed -->
 - Ecclesiastical design elements referenced throughout the site
 
 These marks and trade dress may not be used:

@@ -1,0 +1,28 @@
+<!-- Trust Document Layout -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | Trust Document</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+<body>
+  <header>
+    <a href="/" title="Home"><img src="/assets/img/logo.png" alt="FaithFrontier Logo"></a>
+    <nav>
+      <a href="/essays/">Essays</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+  </header>
+  <main>
+    <section class="trust-document">
+      <h1>{{ page.title }}</h1>
+      {{ content }}
+    </section>
+  </main>
+  <footer>
+    <p>&copy; {{ site.time | date: "%Y" }} FaithFrontier</p>
+  </footer>
+</body>
+</html>

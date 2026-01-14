@@ -1,60 +1,37 @@
 ---
 layout: default
-title: "Common Law Revelations: Connecting the Dots"
+ description: "How Faith Frontier reveals timeless principles of conscience, commerce, and stewardship"
 permalink: /essays/revelations/
-description: "How Faith Frontier cases reveal timeless principles of conscience, commerce, and common law stewardship"
+   The events documented on this site are not isolated. Together, they reveal timeless
 body_class: page-revelations
-
+      Every event documented through Faith Frontier raises questions — but beneath those questions
 # Global hero fields
-hero_eyebrow: "Faith Frontier Ecclesiastical Trust"
+      principles that transcend any single event and point toward God's purpose for law,
 hero_title: "Common Law Revelations"
-hero_subtitle: >
+      Across all areas, five timeless principles
   The cases documented on this site are not isolated events. Together, they reveal timeless
-  principles of conscience, commerce, and common law stewardship that God has woven into the
-  fabric of justice.
-hero_scripture: >
-  "The heavens declare the glory of God; the skies proclaim the work of his hands.
   Day after day they pour forth speech; night after night they reveal knowledge."
-  — Psalm 19:1–2
-tags: [doctrine]
----
-
 <section class="section section-purpose" aria-label="Purpose">
-  <div class="container">
-    <h2>Connecting the Dots</h2>
-    <p class="lead">
-      Every case filed through Faith Frontier raises legal questions — but beneath those questions
       are deeper truths about how power should be exercised, how contracts should be honored,
-      and how government must serve rather than exploit the people.
-    </p>
-    <p>
-      This page reveals the <strong>common threads</strong> that run through all these matters:
       principles that transcend any single docket and point toward God's purpose for law,
-      governance, and human relationships.
-    </p>
   </div>
-</section>
 
-<section class="section section-alt section-themes" aria-label="Core Themes">
+        God reveals truth progressively. The events documented here span multiple years
   <div class="container">
-    <h2>Five Core Revelations</h2>
     <p class="lead">
-      Across criminal, civil, federal, and administrative cases, five timeless principles
+        Each event builds on the last, revealing a pattern of institutional failure that
       emerge with remarkable consistency. These are the revelations that God has used these
-      trials to teach and to witness:
+          these events to document injustice so that others may learn and reform.
     </p>
-
+          The principles revealed here are not new. They echo ancient law: the
     <div class="revelations-grid">
-      <article class="revelation-card" id="revelation-1">
+          and trust in God's justice even when human courts fail. Through these events,
         <h3><span class="revelation-number">1.</span> The Public Trust Doctrine</h3>
-        <p class="revelation-principle">
+      These events are not accidents. They are appointments — divine opportunities to reveal
           <strong>Principle:</strong> Government agencies are fiduciaries, not owners.
-          They must administer public resources for the benefit of the people, not as
-          revenue-generating enterprises.
         </p>
-        <p class="revelation-scripture">
+  "description": "How Faith Frontier reveals timeless principles of conscience, commerce, and stewardship",
           <strong>Scripture:</strong> "The earth is the LORD's, and everything in it,
-          the world, and all who live in it." <em>— Psalm 24:1</em>
         </p>
         <div class="revelation-cases">
           <p><strong>Revealed in these cases:</strong></p>
