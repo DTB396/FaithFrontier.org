@@ -1,27 +1,39 @@
 ---
 layout: default
-title: Faith Frontier
-
+title: "Faith Frontier"
+hide_hero: true
+show_breadcrumbs: false
+description: "Faith Frontier: A Christian stewardship ministry rooted in Scripture, transparency, and accountable neighbor-care."
+stylesheet: /assets/css/home.css
 body_class: ff-home
-homepage_hero: true
 ---
 
-{% comment %}
-	Faith Frontier Homepage: Modern, content-rich, and visually unified
-	- Hero, principles, and FAQ: _includes/homepage-faq.html
-	- Featured Essays: _includes/featured-essays.html
-	- All content styled for clarity and engagement
-{% endcomment %}
+{% include structured-data.html %}
 
-{% include homepage-faq.html %}
+<div class="ff-home">
 
-{% include featured-essays.html %}
+  <!-- 1. PREMIUM HERO (TOP ANCHOR, VISUAL IDENTITY) -->
+  {% include premium-hero.html %}
 
-<div class="ff-home__footer-links">
-	<p>
-		For more information, see our
-		<a href="/faith-frontier-mission-addendum/">mission statement</a>
-		and
-		<a href="/faith-frontier-brand-creed/">brand creed</a>.
-	</p>
+  <!-- 2. FAITH & CONSCIENCE BANNER -->
+  {% include faith-conscience-banner.html %}
+
+  <!-- 3. DAILY SCRIPTURE (ENHANCED, SINGLE SOURCE OF TRUTH) -->
+  {% include daily-verse-enhanced.html %}
+
+  <!-- 4. SACRED TEXTS / BIBLICAL WITNESS SECTION -->
+  {% include holistic-data.html %}
+
+  <!-- 5. FEATURED ESSAYS (LONG-FORM THEOLOGICAL + CIVIC TEACHING) -->
+  {% include featured-essays.html %}
+
+  <!-- 6. STEWARDSHIP CTA (EXPANSION, NOT REPLACEMENT) -->
+  {% include opra-quick-links.html %}
+
+  <!-- 7. HOMEPAGE FAQ (LEGAL-SAFE, THEOLOGICALLY STRONG) -->
+  {% include homepage-faq.html %}
+
 </div>
+
+<!-- 8. PERSISTENT MEDIA (FLOATING, GLOBAL) -->
+{% include spotify-player.html %}
